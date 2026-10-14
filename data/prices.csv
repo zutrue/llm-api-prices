@@ -27,6 +27,7 @@ claude-haiku-4-5,Claude Haiku 4.5,Anthropic,chat,0.54,2.7,1,5,,,,46,list,200000,
 gpt-5.6-sol,GPT-5.6 Sol,OpenAI,chat,1.14,5.7,4,20,,,,72,list,1050000,https://zurelay.com/models/gpt-5.6-sol
 gpt-5.6-terra,GPT-5.6 Terra,OpenAI,chat,0.54,3.26,2,12,,,,73,list,1050000,https://zurelay.com/models/gpt-5.6-terra
 gpt-5.6-luna,GPT-5.6 Luna,OpenAI,chat,0.08,0.49,0.2,1.2,,,,59,list,1050000,https://zurelay.com/models/gpt-5.6-luna
+gemini-4-argon,Gemini 4 Argon,Google,chat,0.8,4,2,10,,,,60,list,1048576,https://zurelay.com/models/gemini-4-argon
 gemini-3.1-pro,Gemini 3.1 Pro,Google,chat,0.8,4.8,2,12,,,,60,list,1048576,https://zurelay.com/models/gemini-3.1-pro
 gemini-3.8-flash,Gemini 3.8 Flash,Google,chat,0.32,1.59,0.75,3.75,,,,58,list,1048576,https://zurelay.com/models/gemini-3.8-flash
 gemini-3.7-flash,Gemini 3.7 Flash,Google,chat,0.32,1.59,0.75,3.75,,,,58,list,1048576,https://zurelay.com/models/gemini-3.7-flash

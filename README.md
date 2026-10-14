@@ -1,8 +1,8 @@
 # LLM API prices
 
-Live API prices for 63 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
+Live API prices for 64 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-10-13**
+Last updated: **2026-10-14**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -43,6 +43,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [GPT-5.6 Terra](https://zurelay.com/models/gpt-5.6-terra) | OpenAI | $2.00 / $12.00 | $0.54 / $3.26 | 73% |
 | [Qwen 3.8 Max](https://zurelay.com/models/qwen3.8-max) | Alibaba | $2.00 / $6.00 | $1.20 / $3.60 | 40% |
 | [Claude Sonnet 5.5](https://zurelay.com/models/claude-sonnet-5-5) | Anthropic | $2.00 / $10.00 | $0.80 / $4.00 | 60% |
+| [Gemini 4 Argon](https://zurelay.com/models/gemini-4-argon) | Google | $2.00 / $10.00 | $0.80 / $4.00 | 60% |
 | [Gemini 3.1 Pro](https://zurelay.com/models/gemini-3.1-pro) | Google | $2.00 / $12.00 | $0.80 / $4.80 | 60% |
 | [GPT-5.6 Sol](https://zurelay.com/models/gpt-5.6-sol) | OpenAI | $4.00 / $20.00 | $1.14 / $5.70 | 72% |
 | [Kimi K3](https://zurelay.com/models/kimi-k3) | Moonshot AI | $3.00 / $15.00 | $1.27 / $6.37 | 58% |

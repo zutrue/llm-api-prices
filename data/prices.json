@@ -561,6 +561,25 @@
       }
     },
     {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-4-argon",
+      "context_window": 1048576,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.8,
+        "output_per_1m": 4,
+        "cached_input_per_1m": 0.04
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10
+      }
+    },
+    {
       "id": "gemini-3.1-pro",
       "name": "Gemini 3.1 Pro",
       "lab": "Google",
