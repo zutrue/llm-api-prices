@@ -149,12 +149,12 @@
       "kind": "chat",
       "url": "https://zurelay.com/models/claude-sonnet-5-5",
       "context_window": 1000000,
-      "saving_percent": 60,
+      "saving_percent": 55,
       "compared_with": "list",
       "price": {
-        "input_per_1m": 0.8,
-        "output_per_1m": 4,
-        "cached_input_per_1m": 0.08
+        "input_per_1m": 0.9,
+        "output_per_1m": 4.5,
+        "cached_input_per_1m": 0.09
       },
       "reference_price": {
         "input_per_1m": 2,
@@ -893,12 +893,12 @@
       "kind": "image",
       "url": "https://zurelay.com/models/gpt-image-2.5-sunburst",
       "context_window": null,
-      "saving_percent": 62,
+      "saving_percent": 51,
       "compared_with": "list",
       "price": {
-        "per_image": 0.02,
+        "per_image": 0.026,
         "per_image_by_size": {
-          "any": 0.02
+          "any": 0.026
         }
       },
       "reference_price": {
@@ -1053,6 +1053,30 @@
       }
     },
     {
+      "id": "kling-3.0",
+      "name": "Kling 3.0",
+      "lab": "Kuaishou",
+      "kind": "video",
+      "url": "https://zurelay.com/models/kling-3.0",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.125,
+        "per_second_by_resolution": {
+          "720p": 0.185,
+          "1080p": 0.235
+        },
+        "silent_per_second_by_resolution": {
+          "720p": 0.125,
+          "1080p": 0.18
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
       "id": "gemini-omni-flash",
       "name": "Gemini Omni Flash",
       "lab": "Google",
@@ -1079,30 +1103,6 @@
       }
     },
     {
-      "id": "kling-3.0",
-      "name": "Kling 3.0",
-      "lab": "Kuaishou",
-      "kind": "video",
-      "url": "https://zurelay.com/models/kling-3.0",
-      "context_window": null,
-      "saving_percent": 0,
-      "compared_with": "fal.ai",
-      "price": {
-        "per_second_from": 0.125,
-        "per_second_by_resolution": {
-          "720p": 0.185,
-          "1080p": 0.235
-        },
-        "silent_per_second_by_resolution": {
-          "720p": 0.125,
-          "1080p": 0.18
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {}
-      }
-    },
-    {
       "id": "wan-3.0",
       "name": "Wan 3.0",
       "lab": "Alibaba",
@@ -1121,27 +1121,6 @@
       },
       "reference_price": {
         "per_second_by_resolution": {}
-      }
-    },
-    {
-      "id": "veo-3.1-fast",
-      "name": "Veo 3.1 Fast",
-      "lab": "Google",
-      "kind": "video",
-      "url": "https://zurelay.com/models/veo-3.1-fast",
-      "context_window": null,
-      "saving_percent": 75,
-      "compared_with": "Google",
-      "price": {
-        "per_second_from": 0.025,
-        "per_second_by_resolution": {
-          "720p": 0.025
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "720p": 0.1
-        }
       }
     },
     {
@@ -1164,6 +1143,27 @@
         "per_second_by_resolution": {
           "480p": 0.08,
           "720p": 0.14
+        }
+      }
+    },
+    {
+      "id": "veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/veo-3.1-fast",
+      "context_window": null,
+      "saving_percent": 75,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.025,
+        "per_second_by_resolution": {
+          "720p": 0.025
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.1
         }
       }
     },
