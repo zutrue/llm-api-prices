@@ -2,7 +2,7 @@
 
 Live API prices for 64 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-10-15**
+Last updated: **2026-10-16**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -16,14 +16,14 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | Model | Lab | List price | Zurelay | Saving |
 | --- | --- | --- | --- | --- |
 | [DeepSeek V4 Flash 0731](https://zurelay.com/models/deepseek-v4-flash-0731) | DeepSeek | $0.076 / $0.153 | $0.029 / $0.087 | 43% |
-| [MiMo V2.6 Flash](https://zurelay.com/models/mimo-v2.6-flash) | Xiaomi | $0.14 / $0.28 | $0.06 / $0.12 | 57% |
 | [DeepSeek V4.1 Flash](https://zurelay.com/models/deepseek-v4.1-flash) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [DeepSeek V4 Flash](https://zurelay.com/models/deepseek-v4-flash) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [GPT-6 Luna](https://zurelay.com/models/gpt-6-luna) | OpenAI | $0.10 / $0.50 | $0.025 / $0.125 | 75% |
+| [MiMo V2.6 Flash](https://zurelay.com/models/mimo-v2.6-flash) | Xiaomi | $0.14 / $0.28 | $0.075 / $0.15 | 46% |
 | [Claude Haiku 5.5](https://zurelay.com/models/claude-haiku-5-5) | Anthropic | $0.10 / $0.50 | $0.04 / $0.20 | 60% |
-| [GLM-5.3 Flash](https://zurelay.com/models/glm-5.3-flash) | Z.ai | $0.15 / $0.50 | $0.06 / $0.20 | 60% |
 | [Qwen 3.8 Flash](https://zurelay.com/models/qwen3.8-flash) | Alibaba | $0.15 / $0.47 | $0.07 / $0.22 | 53% |
 | [Qwen 3.8 Omni Flash](https://zurelay.com/models/qwen3.8-omni-flash) | Alibaba | $0.15 / $0.47 | $0.075 / $0.235 | 50% |
+| [GLM-5.3 Flash](https://zurelay.com/models/glm-5.3-flash) | Z.ai | $0.15 / $0.50 | $0.08 / $0.27 | 46% |
 | [GPT-5.6 Luna](https://zurelay.com/models/gpt-5.6-luna) | OpenAI | $0.20 / $1.20 | $0.08 / $0.49 | 59% |
 | [MiniMax M3](https://zurelay.com/models/minimax-m3) | MiniMax | $0.30 / $1.20 | $0.13 / $0.51 | 57% |
 | [MiniMax M2.7](https://zurelay.com/models/minimax-m2.7) | MiniMax | $0.30 / $1.20 | $0.13 / $0.51 | 57% |
@@ -49,9 +49,9 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [Kimi K3](https://zurelay.com/models/kimi-k3) | Moonshot AI | $3.00 / $15.00 | $1.27 / $6.37 | 58% |
 | [Claude Opus 5.5](https://zurelay.com/models/claude-opus-5-5) | Anthropic | $4.00 / $20.00 | $1.40 / $7.00 | 65% |
 | [Claude Opus 5](https://zurelay.com/models/claude-opus-5) | Anthropic | $5.00 / $25.00 | $1.75 / $8.75 | 65% |
-| [Claude Opus 4.8](https://zurelay.com/models/claude-opus-4-8) | Anthropic | $5.00 / $25.00 | $1.75 / $8.75 | 65% |
-| [Claude Opus 4.6](https://zurelay.com/models/claude-opus-4-6) | Anthropic | $5.00 / $25.00 | $1.75 / $8.75 | 65% |
 | [Claude Opus 4.7](https://zurelay.com/models/claude-opus-4-7) | Anthropic | $5.00 / $25.00 | $1.78 / $8.93 | 64% |
+| [Claude Opus 4.8](https://zurelay.com/models/claude-opus-4-8) | Anthropic | $5.00 / $25.00 | $2.40 / $12.00 | 52% |
+| [Claude Opus 4.6](https://zurelay.com/models/claude-opus-4-6) | Anthropic | $5.00 / $25.00 | $2.40 / $12.00 | 52% |
 | [GPT-6 Astra](https://zurelay.com/models/gpt-6-astra) | OpenAI | $10.00 / $50.00 | $2.50 / $12.50 | 75% |
 | [Claude Fable 5.1](https://zurelay.com/models/claude-fable-5-1) | Anthropic | $10.00 / $50.00 | $3.50 / $17.50 | 65% |
 | [Claude Fable 5](https://zurelay.com/models/claude-fable-5) | Anthropic | $10.00 / $50.00 | $3.50 / $17.50 | 65% |
@@ -66,7 +66,7 @@ Per image, at the smallest size each model makes.
 | [Nano Banana Pro](https://zurelay.com/models/nano-banana-pro) | Google | $0.134 | $0.035 | 74% |
 | [Nano Banana 2](https://zurelay.com/models/nano-banana-2) | Google | $0.067 | $0.025 | 63% |
 | [Nano Banana 2 Lite](https://zurelay.com/models/nano-banana-2-lite) | Google | $0.0336 | $0.016 | 52% |
-| [GPT Image 2.5 Flare](https://zurelay.com/models/gpt-image-2.5-flare) | OpenAI | $0.0527 | $0.02 | 62% |
+| [GPT Image 2.5 Flare](https://zurelay.com/models/gpt-image-2.5-flare) | OpenAI | $0.0527 | $0.028 | 47% |
 | [GPT Image 2.5 Sunburst](https://zurelay.com/models/gpt-image-2.5-sunburst) | OpenAI | $0.0527 | $0.026 | 51% |
 | [GPT Image 2](https://zurelay.com/models/gpt-image-2) | OpenAI | $0.053 | $0.02 | 62% |
 | [Grok Imagine Image 2.0](https://zurelay.com/models/grok-imagine-image-2.0) | xAI | $0.06 | $0.045 | 25% |
@@ -81,8 +81,8 @@ Per second of video. The comparison is fal.ai's price, or the lab's own where it
 | [Seedance 2.0](https://zurelay.com/models/seedance-2.0) | ByteDance | $0.141/s at 480p (fal.ai) | from $0.097/s | 31% |
 | [Seedance 2.0 Fast](https://zurelay.com/models/seedance-2.0-fast) | ByteDance | $0.113/s at 480p (fal.ai) | from $0.074/s | 34% |
 | [Seedance 2.0 Mini](https://zurelay.com/models/seedance-2.0-mini) | ByteDance | $0.0703/s at 480p (fal.ai) | from $0.047/s | 33% |
-| [Kling 3.0](https://zurelay.com/models/kling-3.0) | Kuaishou | — | from $0.125/s | — |
 | [Gemini Omni Flash](https://zurelay.com/models/gemini-omni-flash) | Google | $0.101/s at 720p (Google) | from $0.042/s | 59% |
+| [Kling 3.0](https://zurelay.com/models/kling-3.0) | Kuaishou | — | from $0.125/s | — |
 | [Wan 3.0](https://zurelay.com/models/wan-3.0) | Alibaba | — | from $0.05/s | — |
 | [Grok Imagine Video 1.5](https://zurelay.com/models/grok-imagine-video-1.5) | xAI | $0.08/s at 480p (xAI) | from $0.071/s | 11% |
 | [Veo 3.1 Fast](https://zurelay.com/models/veo-3.1-fast) | Google | $0.10/s at 720p (Google) | from $0.025/s | 75% |
