@@ -1,0 +1,1330 @@
+{
+  "source": "https://zurelay.com/models",
+  "license": "CC BY 4.0: free to use, share and adapt with credit to Zurelay and a link to https://zurelay.com/models",
+  "currency": "USD",
+  "notes": "Chat and speech prices are per 1M tokens. Images are per image, video per second of output. reference_price is the lab's list price (compared_with: list) or, for video, the price at fal.ai or the lab named in compared_with.",
+  "models": [
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-opus-5-5",
+      "context_window": 1000000,
+      "saving_percent": 65,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.4,
+        "output_per_1m": 7,
+        "cached_input_per_1m": 0.14
+      },
+      "reference_price": {
+        "input_per_1m": 4,
+        "output_per_1m": 20
+      }
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-6-astra",
+      "context_window": 1050000,
+      "saving_percent": 75,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 2.5,
+        "output_per_1m": 12.5,
+        "cached_input_per_1m": 0.25
+      },
+      "reference_price": {
+        "input_per_1m": 10,
+        "output_per_1m": 50
+      }
+    },
+    {
+      "id": "nano-banana-2.1",
+      "name": "Nano Banana 2.1",
+      "lab": "Google",
+      "kind": "image",
+      "url": "https://zurelay.com/models/nano-banana-2.1",
+      "context_window": null,
+      "saving_percent": 11,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.03,
+        "per_image_by_size": {
+          "1K": 0.03,
+          "2K": 0.04,
+          "4K": 0.06
+        }
+      },
+      "reference_price": {
+        "per_image": 0.0336,
+        "per_image_by_size": {
+          "1K": 0.0336,
+          "2K": 0.0504,
+          "4K": 0.113
+        }
+      }
+    },
+    {
+      "id": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "lab": "Google",
+      "kind": "image",
+      "url": "https://zurelay.com/models/nano-banana-pro",
+      "context_window": null,
+      "saving_percent": 74,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.035,
+        "per_image_by_size": {
+          "1K": 0.035,
+          "2K": 0.035,
+          "4K": 0.065
+        }
+      },
+      "reference_price": {
+        "per_image": 0.134,
+        "per_image_by_size": {
+          "1K": 0.134,
+          "2K": 0.134,
+          "4K": 0.24
+        }
+      }
+    },
+    {
+      "id": "nano-banana-2",
+      "name": "Nano Banana 2",
+      "lab": "Google",
+      "kind": "image",
+      "url": "https://zurelay.com/models/nano-banana-2",
+      "context_window": null,
+      "saving_percent": 63,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.025,
+        "per_image_by_size": {
+          "1K": 0.025,
+          "2K": 0.034,
+          "4K": 0.058
+        }
+      },
+      "reference_price": {
+        "per_image": 0.067,
+        "per_image_by_size": {
+          "1K": 0.067,
+          "2K": 0.101,
+          "4K": 0.151
+        }
+      }
+    },
+    {
+      "id": "nano-banana-2-lite",
+      "name": "Nano Banana 2 Lite",
+      "lab": "Google",
+      "kind": "image",
+      "url": "https://zurelay.com/models/nano-banana-2-lite",
+      "context_window": null,
+      "saving_percent": 52,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.016,
+        "per_image_by_size": {
+          "1K": 0.016
+        }
+      },
+      "reference_price": {
+        "per_image": 0.0336,
+        "per_image_by_size": {
+          "1K": 0.0336
+        }
+      }
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-sonnet-5-5",
+      "context_window": 1000000,
+      "saving_percent": 55,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.9,
+        "output_per_1m": 4.5,
+        "cached_input_per_1m": 0.09
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10
+      }
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-haiku-5-5",
+      "context_window": 1000000,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.04,
+        "output_per_1m": 0.2,
+        "cached_input_per_1m": 0.004
+      },
+      "reference_price": {
+        "input_per_1m": 0.1,
+        "output_per_1m": 0.5
+      }
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-6.1-sol",
+      "context_window": 1050000,
+      "saving_percent": 75,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 2.5,
+        "cached_input_per_1m": 0.025
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10
+      }
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-6-sol",
+      "context_window": 1050000,
+      "saving_percent": 75,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 2.5,
+        "cached_input_per_1m": 0.05
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10
+      }
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-6-luna",
+      "context_window": 1050000,
+      "saving_percent": 75,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.025,
+        "output_per_1m": 0.125,
+        "cached_input_per_1m": 0.0025
+      },
+      "reference_price": {
+        "input_per_1m": 0.1,
+        "output_per_1m": 0.5
+      }
+    },
+    {
+      "id": "grok-4.7",
+      "name": "Grok 4.7",
+      "lab": "xAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/grok-4.7",
+      "context_window": 500000,
+      "saving_percent": 65,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.7,
+        "output_per_1m": 2.1,
+        "cached_input_per_1m": 0.175
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 6
+      }
+    },
+    {
+      "id": "mimo-v2.6-pro",
+      "name": "MiMo V2.6 Pro",
+      "lab": "Xiaomi",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/mimo-v2.6-pro",
+      "context_window": 1000000,
+      "saving_percent": 26,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.32,
+        "output_per_1m": 0.64,
+        "cached_input_per_1m": 0.0026
+      },
+      "reference_price": {
+        "input_per_1m": 0.435,
+        "output_per_1m": 0.87
+      }
+    },
+    {
+      "id": "mimo-v2.6-flash",
+      "name": "MiMo V2.6 Flash",
+      "lab": "Xiaomi",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/mimo-v2.6-flash",
+      "context_window": 1000000,
+      "saving_percent": 46,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.075,
+        "output_per_1m": 0.15,
+        "cached_input_per_1m": 0.0015
+      },
+      "reference_price": {
+        "input_per_1m": 0.14,
+        "output_per_1m": 0.28
+      }
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "lab": "DeepSeek",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/deepseek-v4.1-flash",
+      "context_window": 1000000,
+      "saving_percent": 90,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.03,
+        "output_per_1m": 0.12,
+        "cached_input_per_1m": 0.00074
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
+      }
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "lab": "DeepSeek",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/deepseek-v4-flash",
+      "context_window": 1000000,
+      "saving_percent": 90,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.03,
+        "output_per_1m": 0.12,
+        "cached_input_per_1m": 0.00074
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
+      }
+    },
+    {
+      "id": "deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "lab": "DeepSeek",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/deepseek-v4-flash-0731",
+      "context_window": 1000000,
+      "saving_percent": 43,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.029,
+        "output_per_1m": 0.087,
+        "cached_input_per_1m": 0.00044
+      },
+      "reference_price": {
+        "input_per_1m": 0.076,
+        "output_per_1m": 0.153
+      }
+    },
+    {
+      "id": "deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "lab": "DeepSeek",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/deepseek-v4-pro-0813",
+      "context_window": 1000000,
+      "saving_percent": 84,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.23,
+        "output_per_1m": 0.62,
+        "cached_input_per_1m": 0.00759
+      },
+      "reference_price": {
+        "input_per_1m": 1.32,
+        "output_per_1m": 3.96
+      }
+    },
+    {
+      "id": "claude-fable-5-1",
+      "name": "Claude Fable 5.1",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-fable-5-1",
+      "context_window": 1000000,
+      "saving_percent": 65,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 3.5,
+        "output_per_1m": 17.5,
+        "cached_input_per_1m": 0.35
+      },
+      "reference_price": {
+        "input_per_1m": 10,
+        "output_per_1m": 50
+      }
+    },
+    {
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-fable-5",
+      "context_window": 1000000,
+      "saving_percent": 65,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 3.5,
+        "output_per_1m": 17.5,
+        "cached_input_per_1m": 0.35
+      },
+      "reference_price": {
+        "input_per_1m": 10,
+        "output_per_1m": 50
+      }
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-opus-5",
+      "context_window": 1000000,
+      "saving_percent": 65,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.75,
+        "output_per_1m": 8.75,
+        "cached_input_per_1m": 0.175
+      },
+      "reference_price": {
+        "input_per_1m": 5,
+        "output_per_1m": 25
+      }
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-opus-4-8",
+      "context_window": 1000000,
+      "saving_percent": 52,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 2.4,
+        "output_per_1m": 12,
+        "cached_input_per_1m": 0.24
+      },
+      "reference_price": {
+        "input_per_1m": 5,
+        "output_per_1m": 25
+      }
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-opus-4-7",
+      "context_window": 1000000,
+      "saving_percent": 64,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.78,
+        "output_per_1m": 8.93,
+        "cached_input_per_1m": 0.178
+      },
+      "reference_price": {
+        "input_per_1m": 5,
+        "output_per_1m": 25
+      }
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-opus-4-6",
+      "context_window": 1000000,
+      "saving_percent": 52,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 2.4,
+        "output_per_1m": 12,
+        "cached_input_per_1m": 0.24
+      },
+      "reference_price": {
+        "input_per_1m": 5,
+        "output_per_1m": 25
+      }
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "lab": "Anthropic",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/claude-haiku-4-5",
+      "context_window": 200000,
+      "saving_percent": 46,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.54,
+        "output_per_1m": 2.7,
+        "cached_input_per_1m": 0.054
+      },
+      "reference_price": {
+        "input_per_1m": 1,
+        "output_per_1m": 5
+      }
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-5.6-sol",
+      "context_window": 1050000,
+      "saving_percent": 72,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.14,
+        "output_per_1m": 5.7,
+        "cached_input_per_1m": 0.114
+      },
+      "reference_price": {
+        "input_per_1m": 4,
+        "output_per_1m": 20
+      }
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-5.6-terra",
+      "context_window": 1050000,
+      "saving_percent": 73,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.54,
+        "output_per_1m": 3.26,
+        "cached_input_per_1m": 0.054
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 12
+      }
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-5.6-luna",
+      "context_window": 1050000,
+      "saving_percent": 59,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.08,
+        "output_per_1m": 0.49,
+        "cached_input_per_1m": 0.008
+      },
+      "reference_price": {
+        "input_per_1m": 0.2,
+        "output_per_1m": 1.2
+      }
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-4-argon",
+      "context_window": 1048576,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.8,
+        "output_per_1m": 4,
+        "cached_input_per_1m": 0.04
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10
+      }
+    },
+    {
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-3.1-pro",
+      "context_window": 1048576,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.8,
+        "output_per_1m": 4.8,
+        "cached_input_per_1m": 0.08
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 12
+      }
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-3.8-flash",
+      "context_window": 1048576,
+      "saving_percent": 58,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.32,
+        "output_per_1m": 1.59,
+        "cached_input_per_1m": 0.032
+      },
+      "reference_price": {
+        "input_per_1m": 0.75,
+        "output_per_1m": 3.75
+      }
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-3.7-flash",
+      "context_window": 1048576,
+      "saving_percent": 58,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.32,
+        "output_per_1m": 1.59,
+        "cached_input_per_1m": 0.032
+      },
+      "reference_price": {
+        "input_per_1m": 0.75,
+        "output_per_1m": 3.75
+      }
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-3.5-flash-lite",
+      "context_window": 1048576,
+      "saving_percent": 58,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.12,
+        "output_per_1m": 1.04,
+        "cached_input_per_1m": 0.012
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 2.5
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-3.1-flash-lite",
+      "context_window": 1048576,
+      "saving_percent": 61,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.1,
+        "output_per_1m": 0.59,
+        "cached_input_per_1m": 0.01
+      },
+      "reference_price": {
+        "input_per_1m": 0.25,
+        "output_per_1m": 1.5
+      }
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "lab": "Z.ai",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/glm-5.3",
+      "context_window": 1000000,
+      "saving_percent": 73,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.38,
+        "output_per_1m": 1.21,
+        "cached_input_per_1m": 0.038
+      },
+      "reference_price": {
+        "input_per_1m": 1.4,
+        "output_per_1m": 4.4
+      }
+    },
+    {
+      "id": "glm-5.2",
+      "name": "GLM-5.2",
+      "lab": "Z.ai",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/glm-5.2",
+      "context_window": 1000000,
+      "saving_percent": 73,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.38,
+        "output_per_1m": 1.21,
+        "cached_input_per_1m": 0.038
+      },
+      "reference_price": {
+        "input_per_1m": 1.4,
+        "output_per_1m": 4.4
+      }
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3 Flash",
+      "lab": "Z.ai",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/glm-5.3-flash",
+      "context_window": 1000000,
+      "saving_percent": 50,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.07,
+        "output_per_1m": 0.25,
+        "cached_input_per_1m": 0.014
+      },
+      "reference_price": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.5
+      }
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "lab": "Moonshot AI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/kimi-k3",
+      "context_window": 1048576,
+      "saving_percent": 58,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.27,
+        "output_per_1m": 6.37,
+        "cached_input_per_1m": 0.127
+      },
+      "reference_price": {
+        "input_per_1m": 3,
+        "output_per_1m": 15
+      }
+    },
+    {
+      "id": "qwen3.8-max",
+      "name": "Qwen 3.8 Max",
+      "lab": "Alibaba",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/qwen3.8-max",
+      "context_window": 1000000,
+      "saving_percent": 40,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.2,
+        "output_per_1m": 3.6,
+        "cached_input_per_1m": 0.15
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 6
+      }
+    },
+    {
+      "id": "qwen3.8-flash",
+      "name": "Qwen 3.8 Flash",
+      "lab": "Alibaba",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/qwen3.8-flash",
+      "context_window": 1000000,
+      "saving_percent": 53,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.07,
+        "output_per_1m": 0.22,
+        "cached_input_per_1m": 0.007
+      },
+      "reference_price": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.47
+      }
+    },
+    {
+      "id": "qwen3.8-omni-flash",
+      "name": "Qwen 3.8 Omni Flash",
+      "lab": "Alibaba",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/qwen3.8-omni-flash",
+      "context_window": 1000000,
+      "saving_percent": 50,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.075,
+        "output_per_1m": 0.235,
+        "cached_input_per_1m": 0.007
+      },
+      "reference_price": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.47
+      }
+    },
+    {
+      "id": "minimax-m3",
+      "name": "MiniMax M3",
+      "lab": "MiniMax",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/minimax-m3",
+      "context_window": 1048576,
+      "saving_percent": 57,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.13,
+        "output_per_1m": 0.51,
+        "cached_input_per_1m": 0.026
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
+      }
+    },
+    {
+      "id": "hy4-preview",
+      "name": "HY4 Preview",
+      "lab": "Tencent",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/hy4-preview",
+      "context_window": 1048576,
+      "saving_percent": 52,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.4,
+        "output_per_1m": 1.2,
+        "cached_input_per_1m": 0.02
+      },
+      "reference_price": {
+        "input_per_1m": 0.834,
+        "output_per_1m": 2.501
+      }
+    },
+    {
+      "id": "minimax-m2.7",
+      "name": "MiniMax M2.7",
+      "lab": "MiniMax",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/minimax-m2.7",
+      "context_window": 204800,
+      "saving_percent": 57,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.13,
+        "output_per_1m": 0.51,
+        "cached_input_per_1m": 0.013
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
+      }
+    },
+    {
+      "id": "gpt-image-2.5-flare",
+      "name": "GPT Image 2.5 Flare",
+      "lab": "OpenAI",
+      "kind": "image",
+      "url": "https://zurelay.com/models/gpt-image-2.5-flare",
+      "context_window": null,
+      "saving_percent": 47,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.028,
+        "per_image_by_size": {
+          "any": 0.028
+        }
+      },
+      "reference_price": {
+        "per_image": 0.0527,
+        "per_image_by_size": {
+          "any": 0.0527
+        }
+      }
+    },
+    {
+      "id": "gpt-image-2.5-sunburst",
+      "name": "GPT Image 2.5 Sunburst",
+      "lab": "OpenAI",
+      "kind": "image",
+      "url": "https://zurelay.com/models/gpt-image-2.5-sunburst",
+      "context_window": null,
+      "saving_percent": 51,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.026,
+        "per_image_by_size": {
+          "any": 0.026
+        }
+      },
+      "reference_price": {
+        "per_image": 0.0527,
+        "per_image_by_size": {
+          "any": 0.0527
+        }
+      }
+    },
+    {
+      "id": "gpt-image-2",
+      "name": "GPT Image 2",
+      "lab": "OpenAI",
+      "kind": "image",
+      "url": "https://zurelay.com/models/gpt-image-2",
+      "context_window": null,
+      "saving_percent": 62,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.02,
+        "per_image_by_size": {
+          "any": 0.02
+        }
+      },
+      "reference_price": {
+        "per_image": 0.053,
+        "per_image_by_size": {
+          "any": 0.053
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-image-2.0",
+      "name": "Grok Imagine Image 2.0",
+      "lab": "xAI",
+      "kind": "image",
+      "url": "https://zurelay.com/models/grok-imagine-image-2.0",
+      "context_window": null,
+      "saving_percent": 25,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.045,
+        "per_image_by_size": {
+          "1K": 0.045,
+          "2K": 0.06
+        }
+      },
+      "reference_price": {
+        "per_image": 0.06,
+        "per_image_by_size": {
+          "1K": 0.06,
+          "2K": 0.08
+        }
+      }
+    },
+    {
+      "id": "seedance-2.5",
+      "name": "Seedance 2.5",
+      "lab": "ByteDance",
+      "kind": "video",
+      "url": "https://zurelay.com/models/seedance-2.5",
+      "context_window": null,
+      "saving_percent": 37,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.135,
+        "per_second_by_resolution": {
+          "480p": 0.135,
+          "720p": 0.305,
+          "1080p": 0.75
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.2149,
+          "720p": 0.4622,
+          "1080p": 1.137
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0",
+      "name": "Seedance 2.0",
+      "lab": "ByteDance",
+      "kind": "video",
+      "url": "https://zurelay.com/models/seedance-2.0",
+      "context_window": null,
+      "saving_percent": 31,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.097,
+        "per_second_by_resolution": {
+          "480p": 0.097,
+          "720p": 0.199,
+          "1080p": 0.445,
+          "4k": 0.99
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.1406,
+          "720p": 0.3024,
+          "1080p": 0.682,
+          "4k": 1.555
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-fast",
+      "name": "Seedance 2.0 Fast",
+      "lab": "ByteDance",
+      "kind": "video",
+      "url": "https://zurelay.com/models/seedance-2.0-fast",
+      "context_window": null,
+      "saving_percent": 34,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.074,
+        "per_second_by_resolution": {
+          "480p": 0.074,
+          "720p": 0.159
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.1125,
+          "720p": 0.2419
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-mini",
+      "name": "Seedance 2.0 Mini",
+      "lab": "ByteDance",
+      "kind": "video",
+      "url": "https://zurelay.com/models/seedance-2.0-mini",
+      "context_window": null,
+      "saving_percent": 33,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.047,
+        "per_second_by_resolution": {
+          "480p": 0.047,
+          "720p": 0.1
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.0703,
+          "720p": 0.1512
+        }
+      }
+    },
+    {
+      "id": "kling-3.0",
+      "name": "Kling 3.0",
+      "lab": "Kuaishou",
+      "kind": "video",
+      "url": "https://zurelay.com/models/kling-3.0",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.125,
+        "per_second_by_resolution": {
+          "720p": 0.185,
+          "1080p": 0.235
+        },
+        "silent_per_second_by_resolution": {
+          "720p": 0.125,
+          "1080p": 0.18
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
+      "id": "gemini-omni-flash",
+      "name": "Gemini Omni Flash",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/gemini-omni-flash",
+      "context_window": null,
+      "saving_percent": 59,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.042,
+        "per_second_by_resolution": {
+          "360p": 0.042,
+          "720p": 0.042,
+          "1080p": 0.042,
+          "4k": 0.07
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.1014,
+          "1080p": 0.152,
+          "4k": 0.304
+        }
+      }
+    },
+    {
+      "id": "wan-3.0",
+      "name": "Wan 3.0",
+      "lab": "Alibaba",
+      "kind": "video",
+      "url": "https://zurelay.com/models/wan-3.0",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.05,
+        "per_second_by_resolution": {
+          "480p": 0.05,
+          "720p": 0.1,
+          "1080p": 0.2
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
+      "id": "veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/veo-3.1-fast",
+      "context_window": null,
+      "saving_percent": 75,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.025,
+        "per_second_by_resolution": {
+          "720p": 0.025
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.1
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "name": "Grok Imagine Video 1.5",
+      "lab": "xAI",
+      "kind": "video",
+      "url": "https://zurelay.com/models/grok-imagine-video-1.5",
+      "context_window": null,
+      "saving_percent": 11,
+      "compared_with": "xAI",
+      "price": {
+        "per_second_from": 0.071,
+        "per_second_by_resolution": {
+          "480p": 0.071,
+          "720p": 0.124
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.08,
+          "720p": 0.14
+        }
+      }
+    },
+    {
+      "id": "vidu-q3-turbo",
+      "name": "Vidu Q3 Turbo",
+      "lab": "ShengShu",
+      "kind": "video",
+      "url": "https://zurelay.com/models/vidu-q3-turbo",
+      "context_window": null,
+      "saving_percent": 14,
+      "compared_with": "Vidu",
+      "price": {
+        "per_second_from": 0.03,
+        "per_second_by_resolution": {
+          "540p": 0.03,
+          "720p": 0.047,
+          "1080p": 0.057
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "540p": 0.035,
+          "720p": 0.055,
+          "1080p": 0.065
+        }
+      }
+    },
+    {
+      "id": "pixverse-v6",
+      "name": "PixVerse V6",
+      "lab": "PixVerse",
+      "kind": "video",
+      "url": "https://zurelay.com/models/pixverse-v6",
+      "context_window": null,
+      "saving_percent": 14,
+      "compared_with": "PixVerse",
+      "price": {
+        "per_second_from": 0.021,
+        "per_second_by_resolution": {
+          "360p": 0.03,
+          "540p": 0.038,
+          "720p": 0.051,
+          "1080p": 0.098
+        },
+        "silent_per_second_by_resolution": {
+          "360p": 0.021,
+          "540p": 0.03,
+          "720p": 0.038,
+          "1080p": 0.076
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "360p": 0.035,
+          "540p": 0.045,
+          "720p": 0.06,
+          "1080p": 0.115
+        }
+      }
+    },
+    {
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
+      "lab": "MiniMax",
+      "kind": "video",
+      "url": "https://zurelay.com/models/minimax-h3",
+      "context_window": null,
+      "saving_percent": 19,
+      "compared_with": "MiniMax",
+      "price": {
+        "per_second_from": 0.065,
+        "per_second_by_resolution": {
+          "768p": 0.065,
+          "2k": 0.1
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "768p": 0.08,
+          "2k": 0.13
+        }
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-tts",
+      "name": "Gemini 3.1 Flash TTS",
+      "lab": "Google",
+      "kind": "speech",
+      "url": "https://zurelay.com/models/gemini-3.1-flash-tts",
+      "context_window": null,
+      "saving_percent": 40,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.6,
+        "output_per_1m": 12,
+        "per_minute_of_speech": 0.023
+      },
+      "reference_price": {
+        "input_per_1m": 1,
+        "output_per_1m": 20,
+        "per_minute_of_speech": 0.038
+      }
+    },
+    {
+      "id": "gemini-2.5-pro-tts",
+      "name": "Gemini 2.5 Pro TTS",
+      "lab": "Google",
+      "kind": "speech",
+      "url": "https://zurelay.com/models/gemini-2.5-pro-tts",
+      "context_window": null,
+      "saving_percent": 40,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.6,
+        "output_per_1m": 12,
+        "per_minute_of_speech": 0.018
+      },
+      "reference_price": {
+        "input_per_1m": 1,
+        "output_per_1m": 20,
+        "per_minute_of_speech": 0.03
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-tts",
+      "name": "Gemini 2.5 Flash TTS",
+      "lab": "Google",
+      "kind": "speech",
+      "url": "https://zurelay.com/models/gemini-2.5-flash-tts",
+      "context_window": null,
+      "saving_percent": 40,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 6,
+        "per_minute_of_speech": 0.009
+      },
+      "reference_price": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 10,
+        "per_minute_of_speech": 0.015
+      }
+    },
+    {
+      "id": "jev-1.13",
+      "name": "Jev 1.13",
+      "lab": "TypeSafe",
+      "kind": "decision",
+      "url": "https://zurelay.com/models/jev-1.13",
+      "context_window": null,
+      "saving_percent": 17,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.035,
+        "output_per_1m": 0
+      },
+      "reference_price": {
+        "input_per_1m": 0.042,
+        "output_per_1m": 0
+      }
+    }
+  ]
+}
