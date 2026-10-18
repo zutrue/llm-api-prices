@@ -955,6 +955,32 @@
       }
     },
     {
+      "id": "flux-3-image",
+      "name": "FLUX 3 Image",
+      "lab": "Black Forest Labs",
+      "kind": "image",
+      "url": "https://zurelay.com/models/flux-3-image",
+      "context_window": null,
+      "saving_percent": 17,
+      "compared_with": "list",
+      "price": {
+        "per_image": 0.04,
+        "per_image_by_size": {
+          "1K": 0.04,
+          "2K": 0.05,
+          "4K": 0.09
+        }
+      },
+      "reference_price": {
+        "per_image": 0.048,
+        "per_image_by_size": {
+          "1K": 0.048,
+          "2K": 0.1,
+          "4K": 0.607
+        }
+      }
+    },
+    {
       "id": "seedance-2.5",
       "name": "Seedance 2.5",
       "lab": "ByteDance",
@@ -1053,30 +1079,6 @@
       }
     },
     {
-      "id": "kling-3.0",
-      "name": "Kling 3.0",
-      "lab": "Kuaishou",
-      "kind": "video",
-      "url": "https://zurelay.com/models/kling-3.0",
-      "context_window": null,
-      "saving_percent": 0,
-      "compared_with": "fal.ai",
-      "price": {
-        "per_second_from": 0.125,
-        "per_second_by_resolution": {
-          "720p": 0.185,
-          "1080p": 0.235
-        },
-        "silent_per_second_by_resolution": {
-          "720p": 0.125,
-          "1080p": 0.18
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {}
-      }
-    },
-    {
       "id": "gemini-omni-flash",
       "name": "Gemini Omni Flash",
       "lab": "Google",
@@ -1103,6 +1105,30 @@
       }
     },
     {
+      "id": "kling-3.0",
+      "name": "Kling 3.0",
+      "lab": "Kuaishou",
+      "kind": "video",
+      "url": "https://zurelay.com/models/kling-3.0",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.125,
+        "per_second_by_resolution": {
+          "720p": 0.185,
+          "1080p": 0.235
+        },
+        "silent_per_second_by_resolution": {
+          "720p": 0.125,
+          "1080p": 0.18
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
       "id": "wan-3.0",
       "name": "Wan 3.0",
       "lab": "Alibaba",
@@ -1121,27 +1147,6 @@
       },
       "reference_price": {
         "per_second_by_resolution": {}
-      }
-    },
-    {
-      "id": "veo-3.1-fast",
-      "name": "Veo 3.1 Fast",
-      "lab": "Google",
-      "kind": "video",
-      "url": "https://zurelay.com/models/veo-3.1-fast",
-      "context_window": null,
-      "saving_percent": 75,
-      "compared_with": "Google",
-      "price": {
-        "per_second_from": 0.025,
-        "per_second_by_resolution": {
-          "720p": 0.025
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "720p": 0.1
-        }
       }
     },
     {
@@ -1164,6 +1169,27 @@
         "per_second_by_resolution": {
           "480p": 0.08,
           "720p": 0.14
+        }
+      }
+    },
+    {
+      "id": "veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/veo-3.1-fast",
+      "context_window": null,
+      "saving_percent": 75,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.025,
+        "per_second_by_resolution": {
+          "720p": 0.025
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.1
         }
       }
     },
@@ -1246,6 +1272,26 @@
           "768p": 0.08,
           "2k": 0.13
         }
+      }
+    },
+    {
+      "id": "gemini-3.8-flash-tts",
+      "name": "Gemini 3.8 Flash TTS",
+      "lab": "Google",
+      "kind": "speech",
+      "url": "https://zurelay.com/models/gemini-3.8-flash-tts",
+      "context_window": null,
+      "saving_percent": 40,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 5.4,
+        "per_minute_of_speech": 0.008
+      },
+      "reference_price": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 9,
+        "per_minute_of_speech": 0.014
       }
     },
     {
