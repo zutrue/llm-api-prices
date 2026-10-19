@@ -1,8 +1,8 @@
 # LLM API prices
 
-Live API prices for 66 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
+Live API prices for 67 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-10-18**
+Last updated: **2026-10-19**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -16,6 +16,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | Model | Lab | List price | Zurelay | Saving |
 | --- | --- | --- | --- | --- |
 | [DeepSeek V4 Flash 0731](https://zurelay.com/models/deepseek-v4-flash-0731) | DeepSeek | $0.076 / $0.153 | $0.029 / $0.087 | 43% |
+| [DeepSeek V4.1 Flash 1017](https://zurelay.com/models/deepseek-v4.1-flash-1017) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [DeepSeek V4.1 Flash](https://zurelay.com/models/deepseek-v4.1-flash) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [DeepSeek V4 Flash](https://zurelay.com/models/deepseek-v4-flash) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [GPT-6 Luna](https://zurelay.com/models/gpt-6-luna) | OpenAI | $0.10 / $0.50 | $0.025 / $0.125 | 75% |

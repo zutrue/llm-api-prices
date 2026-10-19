@@ -13,6 +13,7 @@ gpt-6-luna,GPT-6 Luna,OpenAI,chat,0.025,0.125,0.1,0.5,,,,75,list,1050000,https:/
 grok-4.7,Grok 4.7,xAI,chat,0.7,2.1,2,6,,,,65,list,500000,https://zurelay.com/models/grok-4.7
 mimo-v2.6-pro,MiMo V2.6 Pro,Xiaomi,chat,0.32,0.64,0.435,0.87,,,,26,list,1000000,https://zurelay.com/models/mimo-v2.6-pro
 mimo-v2.6-flash,MiMo V2.6 Flash,Xiaomi,chat,0.075,0.15,0.14,0.28,,,,46,list,1000000,https://zurelay.com/models/mimo-v2.6-flash
+deepseek-v4.1-flash-1017,DeepSeek V4.1 Flash 1017,DeepSeek,chat,0.03,0.12,0.3,1.2,,,,90,list,1000000,https://zurelay.com/models/deepseek-v4.1-flash-1017
 deepseek-v4.1-flash,DeepSeek V4.1 Flash,DeepSeek,chat,0.03,0.12,0.3,1.2,,,,90,list,1000000,https://zurelay.com/models/deepseek-v4.1-flash
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,chat,0.03,0.12,0.3,1.2,,,,90,list,1000000,https://zurelay.com/models/deepseek-v4-flash
 deepseek-v4-flash-0731,DeepSeek V4 Flash 0731,DeepSeek,chat,0.029,0.087,0.076,0.153,,,,43,list,1000000,https://zurelay.com/models/deepseek-v4-flash-0731
@@ -40,8 +41,8 @@ kimi-k3,Kimi K3,Moonshot AI,chat,1.27,6.37,3,15,,,,58,list,1048576,https://zurel
 qwen3.8-max,Qwen 3.8 Max,Alibaba,chat,1.2,3.6,2,6,,,,40,list,1000000,https://zurelay.com/models/qwen3.8-max
 qwen3.8-flash,Qwen 3.8 Flash,Alibaba,chat,0.07,0.22,0.15,0.47,,,,53,list,1000000,https://zurelay.com/models/qwen3.8-flash
 qwen3.8-omni-flash,Qwen 3.8 Omni Flash,Alibaba,chat,0.075,0.235,0.15,0.47,,,,50,list,1000000,https://zurelay.com/models/qwen3.8-omni-flash
-minimax-m3,MiniMax M3,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,1048576,https://zurelay.com/models/minimax-m3
 hy4-preview,HY4 Preview,Tencent,chat,0.4,1.2,0.834,2.501,,,,52,list,1048576,https://zurelay.com/models/hy4-preview
+minimax-m3,MiniMax M3,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,1048576,https://zurelay.com/models/minimax-m3
 minimax-m2.7,MiniMax M2.7,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,204800,https://zurelay.com/models/minimax-m2.7
 gpt-image-2.5-flare,GPT Image 2.5 Flare,OpenAI,image,,,,,0.028,0.0527,,47,list,,https://zurelay.com/models/gpt-image-2.5-flare
 gpt-image-2.5-sunburst,GPT Image 2.5 Sunburst,OpenAI,image,,,,,0.026,0.0527,,51,list,,https://zurelay.com/models/gpt-image-2.5-sunburst

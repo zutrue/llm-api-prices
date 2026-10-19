@@ -295,6 +295,25 @@
       }
     },
     {
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "lab": "DeepSeek",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/deepseek-v4.1-flash-1017",
+      "context_window": 1000000,
+      "saving_percent": 90,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.03,
+        "output_per_1m": 0.12,
+        "cached_input_per_1m": 0.00074
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
+      }
+    },
+    {
       "id": "deepseek-v4.1-flash",
       "name": "DeepSeek V4.1 Flash",
       "lab": "DeepSeek",
@@ -808,25 +827,6 @@
       }
     },
     {
-      "id": "minimax-m3",
-      "name": "MiniMax M3",
-      "lab": "MiniMax",
-      "kind": "chat",
-      "url": "https://zurelay.com/models/minimax-m3",
-      "context_window": 1048576,
-      "saving_percent": 57,
-      "compared_with": "list",
-      "price": {
-        "input_per_1m": 0.13,
-        "output_per_1m": 0.51,
-        "cached_input_per_1m": 0.026
-      },
-      "reference_price": {
-        "input_per_1m": 0.3,
-        "output_per_1m": 1.2
-      }
-    },
-    {
       "id": "hy4-preview",
       "name": "HY4 Preview",
       "lab": "Tencent",
@@ -843,6 +843,25 @@
       "reference_price": {
         "input_per_1m": 0.834,
         "output_per_1m": 2.501
+      }
+    },
+    {
+      "id": "minimax-m3",
+      "name": "MiniMax M3",
+      "lab": "MiniMax",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/minimax-m3",
+      "context_window": 1048576,
+      "saving_percent": 57,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.13,
+        "output_per_1m": 0.51,
+        "cached_input_per_1m": 0.026
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
       }
     },
     {
