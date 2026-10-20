@@ -1,8 +1,8 @@
 # LLM API prices
 
-Live API prices for 67 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
+Live API prices for 68 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-10-19**
+Last updated: **2026-10-20**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -47,6 +47,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [Claude Sonnet 5.5](https://zurelay.com/models/claude-sonnet-5-5) | Anthropic | $2.00 / $10.00 | $0.90 / $4.50 | 55% |
 | [Gemini 3.1 Pro](https://zurelay.com/models/gemini-3.1-pro) | Google | $2.00 / $12.00 | $0.80 / $4.80 | 60% |
 | [GPT-5.6 Sol](https://zurelay.com/models/gpt-5.6-sol) | OpenAI | $4.00 / $20.00 | $1.14 / $5.70 | 72% |
+| [Muse Wonder](https://zurelay.com/models/muse-wonder-1.0) | Meta | $4.00 / $20.00 | $1.20 / $6.00 | 70% |
 | [Kimi K3](https://zurelay.com/models/kimi-k3) | Moonshot AI | $3.00 / $15.00 | $1.27 / $6.37 | 58% |
 | [Claude Opus 5.5](https://zurelay.com/models/claude-opus-5-5) | Anthropic | $4.00 / $20.00 | $1.40 / $7.00 | 65% |
 | [Claude Opus 5](https://zurelay.com/models/claude-opus-5) | Anthropic | $5.00 / $25.00 | $1.75 / $8.75 | 65% |
@@ -83,11 +84,11 @@ Per second of video. The comparison is fal.ai's price, or the lab's own where it
 | [Seedance 2.0](https://zurelay.com/models/seedance-2.0) | ByteDance | $0.141/s at 480p (fal.ai) | from $0.097/s | 31% |
 | [Seedance 2.0 Fast](https://zurelay.com/models/seedance-2.0-fast) | ByteDance | $0.113/s at 480p (fal.ai) | from $0.074/s | 34% |
 | [Seedance 2.0 Mini](https://zurelay.com/models/seedance-2.0-mini) | ByteDance | $0.0703/s at 480p (fal.ai) | from $0.047/s | 33% |
-| [Gemini Omni Flash](https://zurelay.com/models/gemini-omni-flash) | Google | $0.101/s at 720p (Google) | from $0.042/s | 59% |
 | [Kling 3.0](https://zurelay.com/models/kling-3.0) | Kuaishou | — | from $0.125/s | — |
+| [Gemini Omni Flash](https://zurelay.com/models/gemini-omni-flash) | Google | $0.101/s at 720p (Google) | from $0.042/s | 59% |
 | [Wan 3.0](https://zurelay.com/models/wan-3.0) | Alibaba | — | from $0.05/s | — |
-| [Grok Imagine Video 1.5](https://zurelay.com/models/grok-imagine-video-1.5) | xAI | $0.08/s at 480p (xAI) | from $0.071/s | 11% |
 | [Veo 3.1 Fast](https://zurelay.com/models/veo-3.1-fast) | Google | $0.10/s at 720p (Google) | from $0.025/s | 75% |
+| [Grok Imagine Video 1.5](https://zurelay.com/models/grok-imagine-video-1.5) | xAI | $0.08/s at 480p (xAI) | from $0.071/s | 11% |
 | [Vidu Q3 Turbo](https://zurelay.com/models/vidu-q3-turbo) | ShengShu | $0.035/s at 540p (Vidu) | from $0.03/s | 14% |
 | [PixVerse V6](https://zurelay.com/models/pixverse-v6) | PixVerse | $0.035/s at 360p (PixVerse) | from $0.021/s | 14% |
 | [MiniMax H3](https://zurelay.com/models/minimax-h3) | MiniMax | $0.08/s at 768p (MiniMax) | from $0.065/s | 19% |
