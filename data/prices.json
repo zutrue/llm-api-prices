@@ -827,6 +827,25 @@
       }
     },
     {
+      "id": "minimax-m3.1-flash",
+      "name": "MiniMax M3.1 Flash",
+      "lab": "MiniMax",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/minimax-m3.1-flash",
+      "context_window": 1000000,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.06,
+        "output_per_1m": 0.24,
+        "cached_input_per_1m": 0.006
+      },
+      "reference_price": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.6
+      }
+    },
+    {
       "id": "qwen3.8-omni-flash",
       "name": "Qwen 3.8 Omni Flash",
       "lab": "Alibaba",
@@ -1188,27 +1207,6 @@
       }
     },
     {
-      "id": "veo-3.1-fast",
-      "name": "Veo 3.1 Fast",
-      "lab": "Google",
-      "kind": "video",
-      "url": "https://zurelay.com/models/veo-3.1-fast",
-      "context_window": null,
-      "saving_percent": 75,
-      "compared_with": "Google",
-      "price": {
-        "per_second_from": 0.025,
-        "per_second_by_resolution": {
-          "720p": 0.025
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "720p": 0.1
-        }
-      }
-    },
-    {
       "id": "grok-imagine-video-1.5",
       "name": "Grok Imagine Video 1.5",
       "lab": "xAI",
@@ -1228,6 +1226,27 @@
         "per_second_by_resolution": {
           "480p": 0.08,
           "720p": 0.14
+        }
+      }
+    },
+    {
+      "id": "veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/veo-3.1-fast",
+      "context_window": null,
+      "saving_percent": 75,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.025,
+        "per_second_by_resolution": {
+          "720p": 0.025
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.1
         }
       }
     },
