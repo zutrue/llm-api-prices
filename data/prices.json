@@ -16,7 +16,7 @@
       "price": {
         "input_per_1m": 1.4,
         "output_per_1m": 7,
-        "cached_input_per_1m": 0.14
+        "cached_input_per_1m": 0.07
       },
       "reference_price": {
         "input_per_1m": 4,
@@ -377,7 +377,7 @@
       "kind": "chat",
       "url": "https://zurelay.com/models/deepseek-v4-flash-0731",
       "context_window": 1000000,
-      "saving_percent": 43,
+      "saving_percent": 69,
       "compared_with": "list",
       "price": {
         "input_per_1m": 0.029,
@@ -385,8 +385,8 @@
         "cached_input_per_1m": 0.00044
       },
       "reference_price": {
-        "input_per_1m": 0.076,
-        "output_per_1m": 0.153
+        "input_per_1m": 0.14,
+        "output_per_1m": 0.28
       }
     },
     {
@@ -420,7 +420,7 @@
       "price": {
         "input_per_1m": 3.5,
         "output_per_1m": 17.5,
-        "cached_input_per_1m": 0.35
+        "cached_input_per_1m": 0.0875
       },
       "reference_price": {
         "input_per_1m": 10,
