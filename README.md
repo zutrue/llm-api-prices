@@ -1,8 +1,8 @@
 # LLM API prices
 
-Live API prices for 72 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
+Live API prices for 74 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-10-27**
+Last updated: **2026-10-28**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -26,6 +26,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [Qwen 3.8 Omni Flash](https://zurelay.com/models/qwen3.8-omni-flash) | Alibaba | $0.15 / $0.47 | $0.075 / $0.235 | 50% |
 | [MiniMax M3.1 Flash](https://zurelay.com/models/minimax-m3.1-flash) | MiniMax | $0.15 / $0.60 | $0.06 / $0.24 | 60% |
 | [GLM-5.3 Flash](https://zurelay.com/models/glm-5.3-flash) | Z.ai | $0.15 / $0.50 | $0.07 / $0.25 | 50% |
+| [GLM-5.3 FlashX](https://zurelay.com/models/glm-5.3-flashx) | Z.ai | $0.37 / $1.25 | $0.12 / $0.40 | 68% |
 | [GPT-5.6 Luna](https://zurelay.com/models/gpt-5.6-luna) | OpenAI | $0.20 / $1.20 | $0.08 / $0.49 | 59% |
 | [MiniMax M3](https://zurelay.com/models/minimax-m3) | MiniMax | $0.30 / $1.20 | $0.13 / $0.51 | 57% |
 | [MiniMax M2.7](https://zurelay.com/models/minimax-m2.7) | MiniMax | $0.30 / $1.20 | $0.13 / $0.51 | 57% |
@@ -36,6 +37,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [HY4 Preview](https://zurelay.com/models/hy4-preview) | Tencent | $0.834 / $2.50 | $0.40 / $1.20 | 52% |
 | [GLM-5.3](https://zurelay.com/models/glm-5.3) | Z.ai | $1.40 / $4.40 | $0.38 / $1.21 | 73% |
 | [GLM-5.2](https://zurelay.com/models/glm-5.2) | Z.ai | $1.40 / $4.40 | $0.38 / $1.21 | 73% |
+| [GPT-6.1 Terra](https://zurelay.com/models/gpt-6.1-terra) | OpenAI | $1.00 / $5.00 | $0.25 / $1.25 | 75% |
 | [Gemini 3.8 Flash](https://zurelay.com/models/gemini-3.8-flash) | Google | $0.75 / $3.75 | $0.32 / $1.59 | 58% |
 | [Gemini 3.7 Flash](https://zurelay.com/models/gemini-3.7-flash) | Google | $0.75 / $3.75 | $0.32 / $1.59 | 58% |
 | [Grok 4.7](https://zurelay.com/models/grok-4.7) | xAI | $2.00 / $6.00 | $0.70 / $2.10 | 65% |

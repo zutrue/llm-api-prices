@@ -8,6 +8,7 @@ nano-banana-2-lite,Nano Banana 2 Lite,Google,image,,,,,0.016,0.0336,,52,list,,ht
 claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,chat,0.9,4.5,2,10,,,,55,list,1000000,https://zurelay.com/models/claude-sonnet-5-5
 claude-haiku-5-5,Claude Haiku 5.5,Anthropic,chat,0.04,0.2,0.1,0.5,,,,60,list,1000000,https://zurelay.com/models/claude-haiku-5-5
 gpt-6.1-sol,GPT-6.1 Sol,OpenAI,chat,0.5,2.5,2,10,,,,75,list,1050000,https://zurelay.com/models/gpt-6.1-sol
+gpt-6.1-terra,GPT-6.1 Terra,OpenAI,chat,0.25,1.25,1,5,,,,75,list,1050000,https://zurelay.com/models/gpt-6.1-terra
 gpt-6-sol,GPT-6 Sol,OpenAI,chat,0.5,2.5,2,10,,,,75,list,1050000,https://zurelay.com/models/gpt-6-sol
 gpt-6-luna,GPT-6 Luna,OpenAI,chat,0.025,0.125,0.1,0.5,,,,75,list,1050000,https://zurelay.com/models/gpt-6-luna
 grok-4.7,Grok 4.7,xAI,chat,0.7,2.1,2,6,,,,65,list,500000,https://zurelay.com/models/grok-4.7
@@ -37,6 +38,7 @@ gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google,chat,0.12,1.04,0.3,2.5,,,,58,
 gemini-3.1-flash-lite,Gemini 3.1 Flash-Lite,Google,chat,0.1,0.59,0.25,1.5,,,,61,list,1048576,https://zurelay.com/models/gemini-3.1-flash-lite
 glm-5.3,GLM-5.3,Z.ai,chat,0.38,1.21,1.4,4.4,,,,73,list,1000000,https://zurelay.com/models/glm-5.3
 glm-5.2,GLM-5.2,Z.ai,chat,0.38,1.21,1.4,4.4,,,,73,list,1000000,https://zurelay.com/models/glm-5.2
+glm-5.3-flashx,GLM-5.3 FlashX,Z.ai,chat,0.12,0.4,0.37,1.25,,,,68,list,1000000,https://zurelay.com/models/glm-5.3-flashx
 glm-5.3-flash,GLM-5.3 Flash,Z.ai,chat,0.07,0.25,0.15,0.5,,,,50,list,1000000,https://zurelay.com/models/glm-5.3-flash
 kimi-k3.1-pro,Kimi K3.1 Pro,Moonshot AI,chat,0.8,4,2,10,,,,60,list,1048576,https://zurelay.com/models/kimi-k3.1-pro
 kimi-k3.1-pro-highspeed,Kimi K3.1 Pro Highspeed,Moonshot AI,chat,3.3,16.5,4,20,,,,18,list,1048576,https://zurelay.com/models/kimi-k3.1-pro-highspeed
@@ -45,8 +47,8 @@ qwen3.8-max,Qwen 3.8 Max,Alibaba,chat,1.2,3.6,2,6,,,,40,list,1000000,https://zur
 qwen3.8-flash,Qwen 3.8 Flash,Alibaba,chat,0.07,0.22,0.15,0.47,,,,53,list,1000000,https://zurelay.com/models/qwen3.8-flash
 qwen3.8-omni-flash,Qwen 3.8 Omni Flash,Alibaba,chat,0.075,0.235,0.15,0.47,,,,50,list,1000000,https://zurelay.com/models/qwen3.8-omni-flash
 minimax-m3.1-flash,MiniMax M3.1 Flash,MiniMax,chat,0.06,0.24,0.15,0.6,,,,60,list,1000000,https://zurelay.com/models/minimax-m3.1-flash
-hy4-preview,HY4 Preview,Tencent,chat,0.4,1.2,0.834,2.501,,,,52,list,1048576,https://zurelay.com/models/hy4-preview
 minimax-m3,MiniMax M3,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,1048576,https://zurelay.com/models/minimax-m3
+hy4-preview,HY4 Preview,Tencent,chat,0.4,1.2,0.834,2.501,,,,52,list,1048576,https://zurelay.com/models/hy4-preview
 minimax-m2.7,MiniMax M2.7,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,204800,https://zurelay.com/models/minimax-m2.7
 gpt-image-2.5-flare,GPT Image 2.5 Flare,OpenAI,image,,,,,0.028,0.0527,,47,list,,https://zurelay.com/models/gpt-image-2.5-flare
 gpt-image-2.5-sunburst,GPT Image 2.5 Sunburst,OpenAI,image,,,,,0.026,0.0527,,51,list,,https://zurelay.com/models/gpt-image-2.5-sunburst
