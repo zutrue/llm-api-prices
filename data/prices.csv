@@ -39,14 +39,13 @@ gemini-3.1-flash-lite,Gemini 3.1 Flash-Lite,Google,chat,0.1,0.59,0.25,1.5,,,,61,
 glm-5.3,GLM-5.3,Z.ai,chat,0.38,1.21,1.4,4.4,,,,73,list,1000000,https://zurelay.com/models/glm-5.3
 glm-5.2,GLM-5.2,Z.ai,chat,0.38,1.21,1.4,4.4,,,,73,list,1000000,https://zurelay.com/models/glm-5.2
 glm-5.3-flash,GLM-5.3 Flash,Z.ai,chat,0.058,0.19,0.15,0.5,,,,62,list,1000000,https://zurelay.com/models/glm-5.3-flash
-glm-5.3-flashx,GLM-5.3 FlashX,Z.ai,chat,0.12,0.4,0.37,1.25,,,,68,list,1000000,https://zurelay.com/models/glm-5.3-flashx
 kimi-k3.1-pro,Kimi K3.1 Pro,Moonshot AI,chat,0.8,4,2,10,,,,60,list,1048576,https://zurelay.com/models/kimi-k3.1-pro
 kimi-k3.1-pro-highspeed,Kimi K3.1 Pro Highspeed,Moonshot AI,chat,3.3,16.5,4,20,,,,18,list,1048576,https://zurelay.com/models/kimi-k3.1-pro-highspeed
 kimi-k3,Kimi K3,Moonshot AI,chat,1.27,6.37,3,15,,,,58,list,1048576,https://zurelay.com/models/kimi-k3
 qwen3.8-max,Qwen 3.8 Max,Alibaba,chat,1.2,3.6,2,6,,,,40,list,1000000,https://zurelay.com/models/qwen3.8-max
 qwen3.8-flash,Qwen 3.8 Flash,Alibaba,chat,0.07,0.22,0.15,0.47,,,,53,list,1000000,https://zurelay.com/models/qwen3.8-flash
-qwen3.8-omni-flash,Qwen 3.8 Omni Flash,Alibaba,chat,0.075,0.235,0.15,0.47,,,,50,list,1000000,https://zurelay.com/models/qwen3.8-omni-flash
 minimax-m3.1-flash,MiniMax M3.1 Flash,MiniMax,chat,0.06,0.24,0.15,0.6,,,,60,list,1000000,https://zurelay.com/models/minimax-m3.1-flash
+qwen3.8-omni-flash,Qwen 3.8 Omni Flash,Alibaba,chat,0.075,0.235,0.15,0.47,,,,50,list,1000000,https://zurelay.com/models/qwen3.8-omni-flash
 minimax-m3,MiniMax M3,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,1048576,https://zurelay.com/models/minimax-m3
 step-5-preview,Step 5 Preview,StepFun,chat,0.25,0.68,1,2.7,,,,75,list,1000000,https://zurelay.com/models/step-5-preview
 gpt-image-2.5-flare,GPT Image 2.5 Flare,OpenAI,image,,,,,0.028,0.0527,,47,list,,https://zurelay.com/models/gpt-image-2.5-flare
@@ -62,8 +61,8 @@ seedance-2.0-mini,Seedance 2.0 Mini,ByteDance,video,,,,,,,0.047,33,fal.ai,,https
 kling-3.0,Kling 3.0,Kuaishou,video,,,,,,,0.125,0,fal.ai,,https://zurelay.com/models/kling-3.0
 gemini-omni-flash,Gemini Omni Flash,Google,video,,,,,,,0.042,59,Google,,https://zurelay.com/models/gemini-omni-flash
 wan-3.0,Wan 3.0,Alibaba,video,,,,,,,0.039,0,fal.ai,,https://zurelay.com/models/wan-3.0
-grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI,video,,,,,,,0.071,11,xAI,,https://zurelay.com/models/grok-imagine-video-1.5
 veo-3.1-fast,Veo 3.1 Fast,Google,video,,,,,,,0.025,75,Google,,https://zurelay.com/models/veo-3.1-fast
+grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI,video,,,,,,,0.071,11,xAI,,https://zurelay.com/models/grok-imagine-video-1.5
 vidu-q3-turbo,Vidu Q3 Turbo,ShengShu,video,,,,,,,0.03,14,Vidu,,https://zurelay.com/models/vidu-q3-turbo
 pixverse-v6,PixVerse V6,PixVerse,video,,,,,,,0.019,23,PixVerse,,https://zurelay.com/models/pixverse-v6
 minimax-h3,MiniMax H3,MiniMax,video,,,,,,,0.039,51,MiniMax,,https://zurelay.com/models/minimax-h3
@@ -80,6 +79,11 @@ minimax-m2.5,MiniMax M2.5,MiniMax,chat,0.1,0.39,0.3,1.2,,,,68,list,204800,https:
 ministral-3-3b,Ministral 3 3B,Mistral AI,chat,0.03,0.03,0.1,0.1,,,,70,list,131072,https://zurelay.com/models/ministral-3-3b
 ministral-3-14b,Ministral 3 14B,Mistral AI,chat,0.06,0.06,0.2,0.2,,,,70,list,131072,https://zurelay.com/models/ministral-3-14b
 muse-spark-1.3-contributor,Muse Spark 1.3 Contributor,Meta,chat,0.04,0.08,0.1,0.2,,,,60,list,1048576,https://zurelay.com/models/muse-spark-1.3-contributor
-abliterated-large-v2,Abliterated Large V2,Abliteration AI,chat,2.9,4.85,3,5,,,,3,list,1000000,https://zurelay.com/models/abliterated-large-v2
+abliterated-large-v2,Abliterated Large V2,Abliteration AI,chat,2.93,4.88,3,5,,,,2,list,1000000,https://zurelay.com/models/abliterated-large-v2
 text-embedding-3-small,Text Embedding 3 Small,OpenAI,embedding,0.01,0,0.02,0,,,,50,list,8192,https://zurelay.com/models/text-embedding-3-small
+venice-uncensored-1.2,Venice Uncensored 1.2,Venice,chat,0.14,0.63,0.2,0.9,,,,30,list,128000,https://zurelay.com/models/venice-uncensored-1.2
+venice-uncensored-role-play,Venice Uncensored Role-Play,Venice,chat,0.35,1.4,0.5,2,,,,30,list,128000,https://zurelay.com/models/venice-uncensored-role-play
 text-embedding-3-large,Text Embedding 3 Large,OpenAI,embedding,0.065,0,0.13,0,,,,50,list,8192,https://zurelay.com/models/text-embedding-3-large
+glm-4.7-flash-heretic,GLM-4.7 Flash Heretic,Z.ai,chat,0.061,0.35,0.07,0.4,,,,13,list,200000,https://zurelay.com/models/glm-4.7-flash-heretic
+gemma-4-uncensored,Gemma 4 Uncensored,Google,chat,0.142,0.435,0.1625,0.5,,,,13,list,256000,https://zurelay.com/models/gemma-4-uncensored
+qwen3.6-plus-uncensored,Qwen 3.6 Plus Uncensored,Alibaba,chat,0.67,3.19,0.625,3.75,,,,15,list,1000000,https://zurelay.com/models/qwen3.6-plus-uncensored

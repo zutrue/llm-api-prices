@@ -1,8 +1,8 @@
 # LLM API prices
 
-Live API prices for 84 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
+Live API prices for 88 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-11-02**
+Last updated: **2026-11-03**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -29,12 +29,14 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [Qwen 3.8 Flash](https://zurelay.com/models/qwen3.8-flash) | Alibaba | $0.15 / $0.47 | $0.07 / $0.22 | 53% |
 | [Qwen 3.8 Omni Flash](https://zurelay.com/models/qwen3.8-omni-flash) | Alibaba | $0.15 / $0.47 | $0.075 / $0.235 | 50% |
 | [MiniMax M3.1 Flash](https://zurelay.com/models/minimax-m3.1-flash) | MiniMax | $0.15 / $0.60 | $0.06 / $0.24 | 60% |
+| [GLM-4.7 Flash Heretic](https://zurelay.com/models/glm-4.7-flash-heretic) | Z.ai | $0.07 / $0.40 | $0.061 / $0.35 | 13% |
 | [MiniMax M2.5](https://zurelay.com/models/minimax-m2.5) | MiniMax | $0.30 / $1.20 | $0.10 / $0.39 | 68% |
-| [GLM-5.3 FlashX](https://zurelay.com/models/glm-5.3-flashx) | Z.ai | $0.37 / $1.25 | $0.12 / $0.40 | 68% |
+| [Gemma 4 Uncensored](https://zurelay.com/models/gemma-4-uncensored) | Google | $0.163 / $0.50 | $0.142 / $0.435 | 13% |
 | [GPT-5.6 Luna](https://zurelay.com/models/gpt-5.6-luna) | OpenAI | $0.20 / $1.20 | $0.08 / $0.49 | 59% |
 | [MiniMax M3](https://zurelay.com/models/minimax-m3) | MiniMax | $0.30 / $1.20 | $0.13 / $0.51 | 57% |
 | [Gemini 3.1 Flash-Lite](https://zurelay.com/models/gemini-3.1-flash-lite) | Google | $0.25 / $1.50 | $0.10 / $0.59 | 61% |
 | [DeepSeek V4 Pro 0813](https://zurelay.com/models/deepseek-v4-pro-0813) | DeepSeek | $1.32 / $3.96 | $0.23 / $0.62 | 84% |
+| [Venice Uncensored 1.2](https://zurelay.com/models/venice-uncensored-1.2) | Venice | $0.20 / $0.90 | $0.14 / $0.63 | 30% |
 | [MiMo V2.6 Pro](https://zurelay.com/models/mimo-v2.6-pro) | Xiaomi | $0.435 / $0.87 | $0.32 / $0.64 | 26% |
 | [Step 5 Preview](https://zurelay.com/models/step-5-preview) | StepFun | $1.00 / $2.70 | $0.25 / $0.68 | 75% |
 | [Kimi K2.5](https://zurelay.com/models/kimi-k2.5) | Moonshot AI | $0.60 / $3.00 | $0.20 / $0.95 | 68% |
@@ -44,18 +46,20 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [GLM-5.2](https://zurelay.com/models/glm-5.2) | Z.ai | $1.40 / $4.40 | $0.38 / $1.21 | 73% |
 | [GPT-6.1 Terra](https://zurelay.com/models/gpt-6.1-terra) | OpenAI | $1.00 / $5.00 | $0.25 / $1.25 | 75% |
 | [Kimi K2.6](https://zurelay.com/models/kimi-k2.6) | Moonshot AI | $0.95 / $4.00 | $0.30 / $1.30 | 68% |
+| [Venice Uncensored Role-Play](https://zurelay.com/models/venice-uncensored-role-play) | Venice | $0.50 / $2.00 | $0.35 / $1.40 | 30% |
 | [Gemini 3.7 Flash](https://zurelay.com/models/gemini-3.7-flash) | Google | $0.75 / $3.75 | $0.32 / $1.59 | 58% |
 | [Grok 4.7](https://zurelay.com/models/grok-4.7) | xAI | $2.00 / $6.00 | $0.70 / $2.10 | 65% |
 | [GPT-6.1 Sol](https://zurelay.com/models/gpt-6.1-sol) | OpenAI | $2.00 / $10.00 | $0.50 / $2.50 | 75% |
 | [GPT-6 Sol](https://zurelay.com/models/gpt-6-sol) | OpenAI | $2.00 / $10.00 | $0.50 / $2.50 | 75% |
 | [Claude Haiku 4.5](https://zurelay.com/models/claude-haiku-4-5) | Anthropic | $1.00 / $5.00 | $0.54 / $2.70 | 46% |
+| [Qwen 3.6 Plus Uncensored](https://zurelay.com/models/qwen3.6-plus-uncensored) | Alibaba | $0.625 / $3.75 | $0.67 / $3.19 | 15% |
 | [GPT-5.6 Terra](https://zurelay.com/models/gpt-5.6-terra) | OpenAI | $2.00 / $12.00 | $0.54 / $3.26 | 73% |
 | [Gemini 3.1 Pro](https://zurelay.com/models/gemini-3.1-pro) | Google | $2.00 / $12.00 | $0.50 / $3.45 | 71% |
 | [Qwen 3.8 Max](https://zurelay.com/models/qwen3.8-max) | Alibaba | $2.00 / $6.00 | $1.20 / $3.60 | 40% |
 | [Claude Sonnet 5.5](https://zurelay.com/models/claude-sonnet-5-5) | Anthropic | $2.00 / $10.00 | $0.79 / $3.95 | 61% |
 | [Gemini 4 Argon](https://zurelay.com/models/gemini-4-argon) | Google | $2.00 / $10.00 | $0.80 / $4.00 | 60% |
 | [Kimi K3.1 Pro](https://zurelay.com/models/kimi-k3.1-pro) | Moonshot AI | $2.00 / $10.00 | $0.80 / $4.00 | 60% |
-| [Abliterated Large V2](https://zurelay.com/models/abliterated-large-v2) | Abliteration AI | $3.00 / $5.00 | $2.90 / $4.85 | 3% |
+| [Abliterated Large V2](https://zurelay.com/models/abliterated-large-v2) | Abliteration AI | $3.00 / $5.00 | $2.93 / $4.88 | 2% |
 | [GPT-5.6 Sol](https://zurelay.com/models/gpt-5.6-sol) | OpenAI | $4.00 / $20.00 | $1.14 / $5.70 | 72% |
 | [Muse Wonder](https://zurelay.com/models/muse-wonder-1.0) | Meta | $4.00 / $20.00 | $1.20 / $6.00 | 70% |
 | [Kimi K3](https://zurelay.com/models/kimi-k3) | Moonshot AI | $3.00 / $15.00 | $1.27 / $6.37 | 58% |
@@ -99,8 +103,8 @@ Per second of video. The comparison is fal.ai's price, or the lab's own where it
 | [Kling 3.0](https://zurelay.com/models/kling-3.0) | Kuaishou | — | from $0.125/s | — |
 | [Gemini Omni Flash](https://zurelay.com/models/gemini-omni-flash) | Google | $0.101/s at 720p (Google) | from $0.042/s | 59% |
 | [Wan 3.0](https://zurelay.com/models/wan-3.0) | Alibaba | — | from $0.039/s | — |
-| [Grok Imagine Video 1.5](https://zurelay.com/models/grok-imagine-video-1.5) | xAI | $0.08/s at 480p (xAI) | from $0.071/s | 11% |
 | [Veo 3.1 Fast](https://zurelay.com/models/veo-3.1-fast) | Google | $0.10/s at 720p (Google) | from $0.025/s | 75% |
+| [Grok Imagine Video 1.5](https://zurelay.com/models/grok-imagine-video-1.5) | xAI | $0.08/s at 480p (xAI) | from $0.071/s | 11% |
 | [Vidu Q3 Turbo](https://zurelay.com/models/vidu-q3-turbo) | ShengShu | $0.035/s at 540p (Vidu) | from $0.03/s | 14% |
 | [PixVerse V6](https://zurelay.com/models/pixverse-v6) | PixVerse | $0.035/s at 360p (PixVerse) | from $0.019/s | 23% |
 | [MiniMax H3](https://zurelay.com/models/minimax-h3) | MiniMax | $0.08/s at 768p (MiniMax) | from $0.039/s | 51% |
