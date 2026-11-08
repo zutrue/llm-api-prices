@@ -903,6 +903,25 @@
       }
     },
     {
+      "id": "hy4-preview",
+      "name": "HY4 Preview",
+      "lab": "Tencent",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/hy4-preview",
+      "context_window": 1048576,
+      "saving_percent": 52,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.4,
+        "output_per_1m": 1.2,
+        "cached_input_per_1m": 0.02
+      },
+      "reference_price": {
+        "input_per_1m": 0.834,
+        "output_per_1m": 2.501
+      }
+    },
+    {
       "id": "minimax-m3",
       "name": "MiniMax M3",
       "lab": "MiniMax",
@@ -1222,6 +1241,31 @@
       }
     },
     {
+      "id": "gemini-omni-1.2-flash",
+      "name": "Gemini Omni 1.2 Flash",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/gemini-omni-1.2-flash",
+      "context_window": null,
+      "saving_percent": 40,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.042,
+        "per_second_by_resolution": {
+          "720p": 0.042,
+          "1080p": 0.042,
+          "4k": 0.07
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.07,
+          "1080p": 0.104,
+          "4k": 0.209
+        }
+      }
+    },
+    {
       "id": "gemini-omni-flash",
       "name": "Gemini Omni Flash",
       "lab": "Google",
@@ -1293,6 +1337,27 @@
       }
     },
     {
+      "id": "veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "lab": "Google",
+      "kind": "video",
+      "url": "https://zurelay.com/models/veo-3.1-fast",
+      "context_window": null,
+      "saving_percent": 75,
+      "compared_with": "Google",
+      "price": {
+        "per_second_from": 0.025,
+        "per_second_by_resolution": {
+          "720p": 0.025
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.1
+        }
+      }
+    },
+    {
       "id": "grok-imagine-video-1.5",
       "name": "Grok Imagine Video 1.5",
       "lab": "xAI",
@@ -1312,27 +1377,6 @@
         "per_second_by_resolution": {
           "480p": 0.08,
           "720p": 0.14
-        }
-      }
-    },
-    {
-      "id": "veo-3.1-fast",
-      "name": "Veo 3.1 Fast",
-      "lab": "Google",
-      "kind": "video",
-      "url": "https://zurelay.com/models/veo-3.1-fast",
-      "context_window": null,
-      "saving_percent": 75,
-      "compared_with": "Google",
-      "price": {
-        "per_second_from": 0.025,
-        "per_second_by_resolution": {
-          "720p": 0.025
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "720p": 0.1
         }
       }
     },
