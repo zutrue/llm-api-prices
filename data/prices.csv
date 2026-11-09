@@ -43,8 +43,8 @@ kimi-k3.1-pro-highspeed,Kimi K3.1 Pro Highspeed,Moonshot AI,chat,3.3,16.5,4,20,,
 kimi-k3,Kimi K3,Moonshot AI,chat,1.27,6.37,3,15,,,,58,list,1048576,https://zurelay.com/models/kimi-k3
 qwen3.8-max,Qwen 3.8 Max,Alibaba,chat,1.2,3.6,2,6,,,,40,list,1000000,https://zurelay.com/models/qwen3.8-max
 qwen3.8-flash,Qwen 3.8 Flash,Alibaba,chat,0.07,0.22,0.15,0.47,,,,53,list,1000000,https://zurelay.com/models/qwen3.8-flash
-qwen3.8-omni-flash,Qwen 3.8 Omni Flash,Alibaba,chat,0.075,0.235,0.15,0.47,,,,50,list,1000000,https://zurelay.com/models/qwen3.8-omni-flash
 minimax-m3.1-flash,MiniMax M3.1 Flash,MiniMax,chat,0.06,0.24,0.15,0.6,,,,60,list,1000000,https://zurelay.com/models/minimax-m3.1-flash
+qwen3.8-omni-flash,Qwen 3.8 Omni Flash,Alibaba,chat,0.075,0.235,0.15,0.47,,,,50,list,1000000,https://zurelay.com/models/qwen3.8-omni-flash
 hy4-preview,HY4 Preview,Tencent,chat,0.4,1.2,0.834,2.501,,,,52,list,1048576,https://zurelay.com/models/hy4-preview
 minimax-m3,MiniMax M3,MiniMax,chat,0.13,0.51,0.3,1.2,,,,57,list,1048576,https://zurelay.com/models/minimax-m3
 step-5-preview,Step 5 Preview,StepFun,chat,0.25,0.68,1,2.7,,,,75,list,1000000,https://zurelay.com/models/step-5-preview
@@ -69,6 +69,7 @@ grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI,video,,,,,,,0.071,11,xAI,,http
 vidu-q3-turbo,Vidu Q3 Turbo,ShengShu,video,,,,,,,0.03,14,Vidu,,https://zurelay.com/models/vidu-q3-turbo
 pixverse-v6,PixVerse V6,PixVerse,video,,,,,,,0.019,23,PixVerse,,https://zurelay.com/models/pixverse-v6
 minimax-h3,MiniMax H3,MiniMax,video,,,,,,,0.039,51,MiniMax,,https://zurelay.com/models/minimax-h3
+suno-v6,Suno V6,Suno,music,,,,,,,,0,list,,https://zurelay.com/models/suno-v6
 gemini-3.8-flash-tts,Gemini 3.8 Flash TTS,Google,speech,0.3,5.4,0.5,9,,,,40,list,,https://zurelay.com/models/gemini-3.8-flash-tts
 gemini-3.1-flash-tts,Gemini 3.1 Flash TTS,Google,speech,0.6,12,1,20,,,,40,list,,https://zurelay.com/models/gemini-3.1-flash-tts
 gemini-2.5-pro-tts,Gemini 2.5 Pro TTS,Google,speech,0.6,12,1,20,,,,40,list,,https://zurelay.com/models/gemini-2.5-pro-tts

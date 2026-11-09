@@ -865,25 +865,6 @@
       }
     },
     {
-      "id": "qwen3.8-omni-flash",
-      "name": "Qwen 3.8 Omni Flash",
-      "lab": "Alibaba",
-      "kind": "chat",
-      "url": "https://zurelay.com/models/qwen3.8-omni-flash",
-      "context_window": 1000000,
-      "saving_percent": 50,
-      "compared_with": "list",
-      "price": {
-        "input_per_1m": 0.075,
-        "output_per_1m": 0.235,
-        "cached_input_per_1m": 0.007
-      },
-      "reference_price": {
-        "input_per_1m": 0.15,
-        "output_per_1m": 0.47
-      }
-    },
-    {
       "id": "minimax-m3.1-flash",
       "name": "MiniMax M3.1 Flash",
       "lab": "MiniMax",
@@ -900,6 +881,25 @@
       "reference_price": {
         "input_per_1m": 0.15,
         "output_per_1m": 0.6
+      }
+    },
+    {
+      "id": "qwen3.8-omni-flash",
+      "name": "Qwen 3.8 Omni Flash",
+      "lab": "Alibaba",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/qwen3.8-omni-flash",
+      "context_window": 1000000,
+      "saving_percent": 50,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.075,
+        "output_per_1m": 0.235,
+        "cached_input_per_1m": 0.007
+      },
+      "reference_price": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.47
       }
     },
     {
@@ -1460,6 +1460,20 @@
           "2k": 0.13
         }
       }
+    },
+    {
+      "id": "suno-v6",
+      "name": "Suno V6",
+      "lab": "Suno",
+      "kind": "music",
+      "url": "https://zurelay.com/models/suno-v6",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "list",
+      "price": {
+        "per_song": 0.096
+      },
+      "reference_price": {}
     },
     {
       "id": "gemini-3.8-flash-tts",
