@@ -64,9 +64,11 @@ seedance-2.0-mini,Seedance 2.0 Mini,ByteDance,video,,,,,,,0.047,33,fal.ai,,https
 gemini-omni-1.2-flash,Gemini Omni 1.2 Flash,Google,video,,,,,,,0.042,40,Google,,https://zurelay.com/models/gemini-omni-1.2-flash
 kling-3.0,Kling 3.0,Kuaishou,video,,,,,,,0.125,0,fal.ai,,https://zurelay.com/models/kling-3.0
 gemini-omni-flash,Gemini Omni Flash,Google,video,,,,,,,0.042,59,Google,,https://zurelay.com/models/gemini-omni-flash
+wan-3.0-prime,Wan 3.0 Prime,Alibaba,video,,,,,,,0.06,12,Alibaba,,https://zurelay.com/models/wan-3.0-prime
 wan-3.0,Wan 3.0,Alibaba,video,,,,,,,0.039,0,fal.ai,,https://zurelay.com/models/wan-3.0
-veo-3.1-fast,Veo 3.1 Fast,Google,video,,,,,,,0.025,75,Google,,https://zurelay.com/models/veo-3.1-fast
 grok-imagine-video-1.5,Grok Imagine Video 1.5,xAI,video,,,,,,,0.071,11,xAI,,https://zurelay.com/models/grok-imagine-video-1.5
+muse-video,Muse Video,Meta,video,,,,,,,0.02,0,fal.ai,,https://zurelay.com/models/muse-video
+veo-3.1-fast,Veo 3.1 Fast,Google,video,,,,,,,0.025,75,Google,,https://zurelay.com/models/veo-3.1-fast
 vidu-q3-turbo,Vidu Q3 Turbo,ShengShu,video,,,,,,,0.03,14,Vidu,,https://zurelay.com/models/vidu-q3-turbo
 pixverse-v6,PixVerse V6,PixVerse,video,,,,,,,0.019,23,PixVerse,,https://zurelay.com/models/pixverse-v6
 minimax-h3,MiniMax H3,MiniMax,video,,,,,,,0.039,51,MiniMax,,https://zurelay.com/models/minimax-h3

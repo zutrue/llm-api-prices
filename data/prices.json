@@ -1335,6 +1335,31 @@
       }
     },
     {
+      "id": "wan-3.0-prime",
+      "name": "Wan 3.0 Prime",
+      "lab": "Alibaba",
+      "kind": "video",
+      "url": "https://zurelay.com/models/wan-3.0-prime",
+      "context_window": null,
+      "saving_percent": 12,
+      "compared_with": "Alibaba",
+      "price": {
+        "per_second_from": 0.06,
+        "per_second_by_resolution": {
+          "480p": 0.06,
+          "720p": 0.123,
+          "1080p": 0.246
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.068,
+          "720p": 0.14,
+          "1080p": 0.28
+        }
+      }
+    },
+    {
       "id": "wan-3.0",
       "name": "Wan 3.0",
       "lab": "Alibaba",
@@ -1349,6 +1374,48 @@
           "480p": 0.039,
           "720p": 0.079,
           "1080p": 0.158
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "name": "Grok Imagine Video 1.5",
+      "lab": "xAI",
+      "kind": "video",
+      "url": "https://zurelay.com/models/grok-imagine-video-1.5",
+      "context_window": null,
+      "saving_percent": 11,
+      "compared_with": "xAI",
+      "price": {
+        "per_second_from": 0.071,
+        "per_second_by_resolution": {
+          "480p": 0.071,
+          "720p": 0.124
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.08,
+          "720p": 0.14
+        }
+      }
+    },
+    {
+      "id": "muse-video",
+      "name": "Muse Video",
+      "lab": "Meta",
+      "kind": "video",
+      "url": "https://zurelay.com/models/muse-video",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.02,
+        "per_second_by_resolution": {
+          "720p": 0.02
         }
       },
       "reference_price": {
@@ -1373,29 +1440,6 @@
       "reference_price": {
         "per_second_by_resolution": {
           "720p": 0.1
-        }
-      }
-    },
-    {
-      "id": "grok-imagine-video-1.5",
-      "name": "Grok Imagine Video 1.5",
-      "lab": "xAI",
-      "kind": "video",
-      "url": "https://zurelay.com/models/grok-imagine-video-1.5",
-      "context_window": null,
-      "saving_percent": 11,
-      "compared_with": "xAI",
-      "price": {
-        "per_second_from": 0.071,
-        "per_second_by_resolution": {
-          "480p": 0.071,
-          "720p": 0.124
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "480p": 0.08,
-          "720p": 0.14
         }
       }
     },
