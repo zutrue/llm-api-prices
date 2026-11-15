@@ -618,6 +618,25 @@
       }
     },
     {
+      "id": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-4-hydrogen",
+      "context_window": 1048576,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.6,
+        "output_per_1m": 3,
+        "cached_input_per_1m": 0.03
+      },
+      "reference_price": {
+        "input_per_1m": 1.5,
+        "output_per_1m": 7.5
+      }
+    },
+    {
       "id": "gemini-4-argon",
       "name": "Gemini 4 Argon",
       "lab": "Google",
@@ -884,25 +903,6 @@
       }
     },
     {
-      "id": "qwen3.8-omni-flash",
-      "name": "Qwen 3.8 Omni Flash",
-      "lab": "Alibaba",
-      "kind": "chat",
-      "url": "https://zurelay.com/models/qwen3.8-omni-flash",
-      "context_window": 1000000,
-      "saving_percent": 50,
-      "compared_with": "list",
-      "price": {
-        "input_per_1m": 0.075,
-        "output_per_1m": 0.235,
-        "cached_input_per_1m": 0.007
-      },
-      "reference_price": {
-        "input_per_1m": 0.15,
-        "output_per_1m": 0.47
-      }
-    },
-    {
       "id": "minimax-m3.1-flash",
       "name": "MiniMax M3.1 Flash",
       "lab": "MiniMax",
@@ -922,22 +922,22 @@
       }
     },
     {
-      "id": "minimax-m3",
-      "name": "MiniMax M3",
-      "lab": "MiniMax",
+      "id": "qwen3.8-omni-flash",
+      "name": "Qwen 3.8 Omni Flash",
+      "lab": "Alibaba",
       "kind": "chat",
-      "url": "https://zurelay.com/models/minimax-m3",
-      "context_window": 1048576,
-      "saving_percent": 57,
+      "url": "https://zurelay.com/models/qwen3.8-omni-flash",
+      "context_window": 1000000,
+      "saving_percent": 50,
       "compared_with": "list",
       "price": {
-        "input_per_1m": 0.13,
-        "output_per_1m": 0.51,
-        "cached_input_per_1m": 0.026
+        "input_per_1m": 0.075,
+        "output_per_1m": 0.235,
+        "cached_input_per_1m": 0.007
       },
       "reference_price": {
-        "input_per_1m": 0.3,
-        "output_per_1m": 1.2
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.47
       }
     },
     {
@@ -957,6 +957,25 @@
       "reference_price": {
         "input_per_1m": 0.834,
         "output_per_1m": 2.501
+      }
+    },
+    {
+      "id": "minimax-m3",
+      "name": "MiniMax M3",
+      "lab": "MiniMax",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/minimax-m3",
+      "context_window": 1048576,
+      "saving_percent": 57,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.13,
+        "output_per_1m": 0.51,
+        "cached_input_per_1m": 0.026
+      },
+      "reference_price": {
+        "input_per_1m": 0.3,
+        "output_per_1m": 1.2
       }
     },
     {
@@ -1404,25 +1423,6 @@
       }
     },
     {
-      "id": "muse-video",
-      "name": "Muse Video",
-      "lab": "Meta",
-      "kind": "video",
-      "url": "https://zurelay.com/models/muse-video",
-      "context_window": null,
-      "saving_percent": 0,
-      "compared_with": "fal.ai",
-      "price": {
-        "per_second_from": 0.02,
-        "per_second_by_resolution": {
-          "720p": 0.02
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {}
-      }
-    },
-    {
       "id": "veo-3.1-fast",
       "name": "Veo 3.1 Fast",
       "lab": "Google",
@@ -1441,6 +1441,25 @@
         "per_second_by_resolution": {
           "720p": 0.1
         }
+      }
+    },
+    {
+      "id": "muse-video",
+      "name": "Muse Video",
+      "lab": "Meta",
+      "kind": "video",
+      "url": "https://zurelay.com/models/muse-video",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.02,
+        "per_second_by_resolution": {
+          "720p": 0.02
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
       }
     },
     {
@@ -1576,46 +1595,6 @@
         "input_per_1m": 1,
         "output_per_1m": 20,
         "per_minute_of_speech": 0.038
-      }
-    },
-    {
-      "id": "gemini-2.5-pro-tts",
-      "name": "Gemini 2.5 Pro TTS",
-      "lab": "Google",
-      "kind": "speech",
-      "url": "https://zurelay.com/models/gemini-2.5-pro-tts",
-      "context_window": null,
-      "saving_percent": 40,
-      "compared_with": "list",
-      "price": {
-        "input_per_1m": 0.6,
-        "output_per_1m": 12,
-        "per_minute_of_speech": 0.018
-      },
-      "reference_price": {
-        "input_per_1m": 1,
-        "output_per_1m": 20,
-        "per_minute_of_speech": 0.03
-      }
-    },
-    {
-      "id": "gemini-2.5-flash-tts",
-      "name": "Gemini 2.5 Flash TTS",
-      "lab": "Google",
-      "kind": "speech",
-      "url": "https://zurelay.com/models/gemini-2.5-flash-tts",
-      "context_window": null,
-      "saving_percent": 40,
-      "compared_with": "list",
-      "price": {
-        "input_per_1m": 0.3,
-        "output_per_1m": 6,
-        "per_minute_of_speech": 0.009
-      },
-      "reference_price": {
-        "input_per_1m": 0.5,
-        "output_per_1m": 10,
-        "per_minute_of_speech": 0.015
       }
     },
     {
