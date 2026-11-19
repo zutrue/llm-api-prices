@@ -24,6 +24,25 @@
       }
     },
     {
+      "id": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-6.2-astra",
+      "context_window": 1050000,
+      "saving_percent": 75,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10,
+        "cached_input_per_1m": 0.1
+      },
+      "reference_price": {
+        "input_per_1m": 8,
+        "output_per_1m": 40
+      }
+    },
+    {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "lab": "OpenAI",
@@ -178,6 +197,25 @@
       "reference_price": {
         "input_per_1m": 0.1,
         "output_per_1m": 0.5
+      }
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "lab": "OpenAI",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gpt-6.2-sol",
+      "context_window": 1050000,
+      "saving_percent": 75,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.5,
+        "output_per_1m": 2.5,
+        "cached_input_per_1m": 0.025
+      },
+      "reference_price": {
+        "input_per_1m": 2,
+        "output_per_1m": 10
       }
     },
     {
@@ -1214,29 +1252,6 @@
       }
     },
     {
-      "id": "kling-4.0",
-      "name": "Kling 4.0",
-      "lab": "Kuaishou",
-      "kind": "video",
-      "url": "https://zurelay.com/models/kling-4.0",
-      "context_window": null,
-      "saving_percent": 4,
-      "compared_with": "Kling",
-      "price": {
-        "per_second_from": 0.15,
-        "per_second_by_resolution": {
-          "720p": 0.15,
-          "1080p": 0.225
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "720p": 0.157,
-          "1080p": 0.235
-        }
-      }
-    },
-    {
       "id": "seedance-2.0-mini",
       "name": "Seedance 2.0 Mini",
       "lab": "ByteDance",
@@ -1281,6 +1296,29 @@
           "720p": 0.07,
           "1080p": 0.104,
           "4k": 0.209
+        }
+      }
+    },
+    {
+      "id": "kling-4.0",
+      "name": "Kling 4.0",
+      "lab": "Kuaishou",
+      "kind": "video",
+      "url": "https://zurelay.com/models/kling-4.0",
+      "context_window": null,
+      "saving_percent": 4,
+      "compared_with": "Kling",
+      "price": {
+        "per_second_from": 0.15,
+        "per_second_by_resolution": {
+          "720p": 0.15,
+          "1080p": 0.225
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.157,
+          "1080p": 0.235
         }
       }
     },
@@ -1381,22 +1419,24 @@
       }
     },
     {
-      "id": "muse-video",
-      "name": "Muse Video",
-      "lab": "Meta",
+      "id": "veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "lab": "Google",
       "kind": "video",
-      "url": "https://zurelay.com/models/muse-video",
+      "url": "https://zurelay.com/models/veo-3.1-fast",
       "context_window": null,
-      "saving_percent": 0,
-      "compared_with": "fal.ai",
+      "saving_percent": 75,
+      "compared_with": "Google",
       "price": {
-        "per_second_from": 0.02,
+        "per_second_from": 0.025,
         "per_second_by_resolution": {
-          "720p": 0.02
+          "720p": 0.025
         }
       },
       "reference_price": {
-        "per_second_by_resolution": {}
+        "per_second_by_resolution": {
+          "720p": 0.1
+        }
       }
     },
     {
@@ -1423,23 +1463,46 @@
       }
     },
     {
-      "id": "veo-3.1-fast",
-      "name": "Veo 3.1 Fast",
-      "lab": "Google",
+      "id": "muse-video",
+      "name": "Muse Video",
+      "lab": "Meta",
       "kind": "video",
-      "url": "https://zurelay.com/models/veo-3.1-fast",
+      "url": "https://zurelay.com/models/muse-video",
       "context_window": null,
-      "saving_percent": 75,
-      "compared_with": "Google",
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
       "price": {
-        "per_second_from": 0.025,
+        "per_second_from": 0.02,
         "per_second_by_resolution": {
-          "720p": 0.025
+          "720p": 0.02
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
+      "id": "vidu-q3-turbo",
+      "name": "Vidu Q3 Turbo",
+      "lab": "ShengShu",
+      "kind": "video",
+      "url": "https://zurelay.com/models/vidu-q3-turbo",
+      "context_window": null,
+      "saving_percent": 14,
+      "compared_with": "Vidu",
+      "price": {
+        "per_second_from": 0.03,
+        "per_second_by_resolution": {
+          "540p": 0.03,
+          "720p": 0.047,
+          "1080p": 0.057
         }
       },
       "reference_price": {
         "per_second_by_resolution": {
-          "720p": 0.1
+          "540p": 0.035,
+          "720p": 0.055,
+          "1080p": 0.065
         }
       }
     },
@@ -1465,31 +1528,6 @@
           "480p": 0.07,
           "720p": 0.14,
           "1080p": 0.18
-        }
-      }
-    },
-    {
-      "id": "vidu-q3-turbo",
-      "name": "Vidu Q3 Turbo",
-      "lab": "ShengShu",
-      "kind": "video",
-      "url": "https://zurelay.com/models/vidu-q3-turbo",
-      "context_window": null,
-      "saving_percent": 14,
-      "compared_with": "Vidu",
-      "price": {
-        "per_second_from": 0.03,
-        "per_second_by_resolution": {
-          "540p": 0.03,
-          "720p": 0.047,
-          "1080p": 0.057
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "540p": 0.035,
-          "720p": 0.055,
-          "1080p": 0.065
         }
       }
     },
