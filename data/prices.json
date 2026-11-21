@@ -656,6 +656,25 @@
       }
     },
     {
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "lab": "Google",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/gemini-4-neon",
+      "context_window": 1048576,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 1.2,
+        "output_per_1m": 6,
+        "cached_input_per_1m": 0.06
+      },
+      "reference_price": {
+        "input_per_1m": 3,
+        "output_per_1m": 15
+      }
+    },
+    {
       "id": "gemini-4-hydrogen",
       "name": "Gemini 4 Hydrogen",
       "lab": "Google",
@@ -1177,6 +1196,26 @@
       }
     },
     {
+      "id": "seedance-2.5-flash",
+      "name": "Seedance 2.5 Flash",
+      "lab": "ByteDance",
+      "kind": "video",
+      "url": "https://zurelay.com/models/seedance-2.5-flash",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.097,
+        "per_second_by_resolution": {
+          "480p": 0.097,
+          "720p": 0.199
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
+      }
+    },
+    {
       "id": "seedance-2.5",
       "name": "Seedance 2.5",
       "lab": "ByteDance",
@@ -1252,25 +1291,48 @@
       }
     },
     {
-      "id": "kling-4.0",
-      "name": "Kling 4.0",
-      "lab": "Kuaishou",
+      "id": "gemini-omni-1.2-flash",
+      "name": "Gemini Omni 1.2 Flash",
+      "lab": "Google",
       "kind": "video",
-      "url": "https://zurelay.com/models/kling-4.0",
+      "url": "https://zurelay.com/models/gemini-omni-1.2-flash",
       "context_window": null,
-      "saving_percent": 4,
-      "compared_with": "Kling",
+      "saving_percent": 40,
+      "compared_with": "Google",
       "price": {
-        "per_second_from": 0.15,
+        "per_second_from": 0.042,
         "per_second_by_resolution": {
-          "720p": 0.15,
-          "1080p": 0.225
+          "720p": 0.042,
+          "1080p": 0.042,
+          "4k": 0.07
         }
       },
       "reference_price": {
         "per_second_by_resolution": {
-          "720p": 0.157,
-          "1080p": 0.235
+          "720p": 0.07,
+          "1080p": 0.104,
+          "4k": 0.209
+        }
+      }
+    },
+    {
+      "id": "kling-4.0-flash",
+      "name": "Kling 4.0 Flash",
+      "lab": "Kuaishou",
+      "kind": "video",
+      "url": "https://zurelay.com/models/kling-4.0-flash",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "Kling",
+      "price": {
+        "per_second_from": 0.094,
+        "per_second_by_resolution": {
+          "720p": 0.094
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "720p": 0.094
         }
       }
     },
@@ -1298,28 +1360,50 @@
       }
     },
     {
-      "id": "gemini-omni-1.2-flash",
-      "name": "Gemini Omni 1.2 Flash",
-      "lab": "Google",
+      "id": "kling-4.0",
+      "name": "Kling 4.0",
+      "lab": "Kuaishou",
       "kind": "video",
-      "url": "https://zurelay.com/models/gemini-omni-1.2-flash",
+      "url": "https://zurelay.com/models/kling-4.0",
       "context_window": null,
-      "saving_percent": 40,
-      "compared_with": "Google",
+      "saving_percent": 4,
+      "compared_with": "Kling",
       "price": {
-        "per_second_from": 0.042,
+        "per_second_from": 0.15,
         "per_second_by_resolution": {
-          "720p": 0.042,
-          "1080p": 0.042,
-          "4k": 0.07
+          "720p": 0.15,
+          "1080p": 0.225
         }
       },
       "reference_price": {
         "per_second_by_resolution": {
-          "720p": 0.07,
-          "1080p": 0.104,
-          "4k": 0.209
+          "720p": 0.157,
+          "1080p": 0.235
         }
+      }
+    },
+    {
+      "id": "kling-3.0",
+      "name": "Kling 3.0",
+      "lab": "Kuaishou",
+      "kind": "video",
+      "url": "https://zurelay.com/models/kling-3.0",
+      "context_window": null,
+      "saving_percent": 0,
+      "compared_with": "fal.ai",
+      "price": {
+        "per_second_from": 0.125,
+        "per_second_by_resolution": {
+          "720p": 0.185,
+          "1080p": 0.235
+        },
+        "silent_per_second_by_resolution": {
+          "720p": 0.125,
+          "1080p": 0.18
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {}
       }
     },
     {
@@ -1346,30 +1430,6 @@
           "1080p": 0.152,
           "4k": 0.304
         }
-      }
-    },
-    {
-      "id": "kling-3.0",
-      "name": "Kling 3.0",
-      "lab": "Kuaishou",
-      "kind": "video",
-      "url": "https://zurelay.com/models/kling-3.0",
-      "context_window": null,
-      "saving_percent": 0,
-      "compared_with": "fal.ai",
-      "price": {
-        "per_second_from": 0.125,
-        "per_second_by_resolution": {
-          "720p": 0.185,
-          "1080p": 0.235
-        },
-        "silent_per_second_by_resolution": {
-          "720p": 0.125,
-          "1080p": 0.18
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {}
       }
     },
     {
@@ -1482,31 +1542,6 @@
       }
     },
     {
-      "id": "happyhorse-1.1",
-      "name": "HappyHorse 1.1",
-      "lab": "Alibaba",
-      "kind": "video",
-      "url": "https://zurelay.com/models/happyhorse-1.1",
-      "context_window": null,
-      "saving_percent": 16,
-      "compared_with": "Alibaba",
-      "price": {
-        "per_second_from": 0.059,
-        "per_second_by_resolution": {
-          "480p": 0.059,
-          "720p": 0.118,
-          "1080p": 0.157
-        }
-      },
-      "reference_price": {
-        "per_second_by_resolution": {
-          "480p": 0.07,
-          "720p": 0.14,
-          "1080p": 0.18
-        }
-      }
-    },
-    {
       "id": "vidu-q3-turbo",
       "name": "Vidu Q3 Turbo",
       "lab": "ShengShu",
@@ -1528,6 +1563,31 @@
           "540p": 0.035,
           "720p": 0.055,
           "1080p": 0.065
+        }
+      }
+    },
+    {
+      "id": "happyhorse-1.1",
+      "name": "HappyHorse 1.1",
+      "lab": "Alibaba",
+      "kind": "video",
+      "url": "https://zurelay.com/models/happyhorse-1.1",
+      "context_window": null,
+      "saving_percent": 16,
+      "compared_with": "Alibaba",
+      "price": {
+        "per_second_from": 0.059,
+        "per_second_by_resolution": {
+          "480p": 0.059,
+          "720p": 0.118,
+          "1080p": 0.157
+        }
+      },
+      "reference_price": {
+        "per_second_by_resolution": {
+          "480p": 0.07,
+          "720p": 0.14,
+          "1080p": 0.18
         }
       }
     },
@@ -1953,11 +2013,11 @@
       "kind": "chat",
       "url": "https://zurelay.com/models/gemma-4-uncensored",
       "context_window": 64000,
-      "saving_percent": 6,
+      "saving_percent": 0,
       "compared_with": "list",
       "price": {
-        "input_per_1m": 0.18,
-        "output_per_1m": 0.83
+        "input_per_1m": 0.2,
+        "output_per_1m": 0.93
       },
       "reference_price": {
         "input_per_1m": 0.19,
