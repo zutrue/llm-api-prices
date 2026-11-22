@@ -903,6 +903,25 @@
       }
     },
     {
+      "id": "qwen4-max",
+      "name": "Qwen4 Max",
+      "lab": "Alibaba",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/qwen4-max",
+      "context_window": 1000000,
+      "saving_percent": 60,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.6,
+        "output_per_1m": 1.8,
+        "cached_input_per_1m": 0.03
+      },
+      "reference_price": {
+        "input_per_1m": 1.5,
+        "output_per_1m": 4.5
+      }
+    },
+    {
       "id": "kimi-k3",
       "name": "Kimi K3",
       "lab": "Moonshot AI",
@@ -1014,6 +1033,25 @@
       "reference_price": {
         "input_per_1m": 0.3,
         "output_per_1m": 1.2
+      }
+    },
+    {
+      "id": "hy4-flash",
+      "name": "Hy4 Flash",
+      "lab": "Tencent",
+      "kind": "chat",
+      "url": "https://zurelay.com/models/hy4-flash",
+      "context_window": 1048576,
+      "saving_percent": 64,
+      "compared_with": "list",
+      "price": {
+        "input_per_1m": 0.025,
+        "output_per_1m": 0.1,
+        "cached_input_per_1m": 0.001
+      },
+      "reference_price": {
+        "input_per_1m": 0.07,
+        "output_per_1m": 0.281
       }
     },
     {

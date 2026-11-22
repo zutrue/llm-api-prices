@@ -1,8 +1,8 @@
 # LLM API prices
 
-Live API prices for 100 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
+Live API prices for 102 AI models, from Claude, GPT and Gemini to DeepSeek, Qwen, Nano Banana and Seedance, with each lab's list price beside the price on [Zurelay](https://zurelay.com). Updated every day, as JSON and CSV, with a dated snapshot so the history builds up.
 
-Last updated: **2026-11-21**
+Last updated: **2026-11-22**
 
 - [`data/prices.json`](data/prices.json): every model, with `price`, `reference_price` and `saving_percent`
 - [`data/prices.csv`](data/prices.csv): the same, one row per model, for spreadsheets
@@ -18,6 +18,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [Ministral 3 3B](https://zurelay.com/models/ministral-3-3b) | Mistral AI | $0.10 / $0.10 | $0.03 / $0.03 | 70% |
 | [Ministral 3 14B](https://zurelay.com/models/ministral-3-14b) | Mistral AI | $0.20 / $0.20 | $0.06 / $0.06 | 70% |
 | [DeepSeek V4 Flash 0731](https://zurelay.com/models/deepseek-v4-flash-0731) | DeepSeek | $0.14 / $0.28 | $0.029 / $0.087 | 69% |
+| [Hy4 Flash](https://zurelay.com/models/hy4-flash) | Tencent | $0.07 / $0.281 | $0.025 / $0.10 | 64% |
 | [DeepSeek V4.1 Flash 1017](https://zurelay.com/models/deepseek-v4.1-flash-1017) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [DeepSeek V4.1 Flash](https://zurelay.com/models/deepseek-v4.1-flash) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
 | [DeepSeek V4 Flash](https://zurelay.com/models/deepseek-v4-flash) | DeepSeek | $0.30 / $1.20 | $0.03 / $0.12 | 90% |
@@ -45,6 +46,7 @@ Per 1M input / output tokens, cheapest output first. List price is the lab's own
 | [GPT-6.1 Terra](https://zurelay.com/models/gpt-6.1-terra) | OpenAI | $1.00 / $5.00 | $0.25 / $1.25 | 75% |
 | [Kimi K2.6](https://zurelay.com/models/kimi-k2.6) | Moonshot AI | $0.95 / $4.00 | $0.30 / $1.30 | 68% |
 | [Gemini 3.7 Flash](https://zurelay.com/models/gemini-3.7-flash) | Google | $0.75 / $3.75 | $0.32 / $1.59 | 58% |
+| [Qwen4 Max](https://zurelay.com/models/qwen4-max) | Alibaba | $1.50 / $4.50 | $0.60 / $1.80 | 60% |
 | [Grok 4.7](https://zurelay.com/models/grok-4.7) | xAI | $2.00 / $6.00 | $0.70 / $2.10 | 65% |
 | [GPT-6.2 Sol](https://zurelay.com/models/gpt-6.2-sol) | OpenAI | $2.00 / $10.00 | $0.50 / $2.50 | 75% |
 | [GPT-6.1 Sol](https://zurelay.com/models/gpt-6.1-sol) | OpenAI | $2.00 / $10.00 | $0.50 / $2.50 | 75% |
